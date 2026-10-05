@@ -28,5 +28,5 @@ if __name__ == "__main__":
     for n in range(1000, 10001, 1000):
         vals, counts = generate(n)
         with open(os.path.join(out, f"Synthetic_{n}.txt"), "w", newline="\n") as f:
-            f.write("\n".join(str(v) for v in vals) + "\n")
+            f.write("\n".join(str(v) for v in vals))
         print(f"Synthetic_{n}: n={len(vals)} {counts} min={min(vals)} max={max(vals)} mean={round(sum(vals)/len(vals))}")

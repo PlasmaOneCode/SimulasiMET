@@ -2,7 +2,6 @@ import csv, sys
 from collections import OrderedDict
 
 SRC = sys.argv[1] if len(sys.argv) > 1 else "results/experiment-results.csv"
-OUT_CLEAN = "results/experiment-results-clean.csv"
 OUT_AVG = "results/experiment-averages.csv"
 METRICS = ["Makespan", "AverageWaitingTime", "Throughput", "DegreeOfImbalance", "AverageVMUtilization"]
 
@@ -35,10 +34,6 @@ for (fam, ds, tasks), rs in groups.items():
         if max(vals[m]) != min(vals[m]):
             problems.append(f"{ds}: {m} tidak identik antar run {vals[m]}")
     avg_rows.append([fam, ds, tasks] + [round(sum(vals[m]) / len(rs), 4) for m in METRICS])
-
-with open(OUT_CLEAN, "w", newline="", encoding="utf-8") as f:
-    w = csv.DictWriter(f, fieldnames=list(ok[0].keys()))
-    w.writeheader(); w.writerows(ok)
 
 with open(OUT_AVG, "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
