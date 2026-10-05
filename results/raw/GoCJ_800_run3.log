@@ -1,0 +1,2598 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.cloudbus.cloudsim:cloudsim-examples >---------------
+[INFO] Building cloudsim-examples 7.0.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.6.4:java (default-cli) @ cloudsim-examples ---
+Starting Week4_MET_TaskScheduling...
+Initialising...
+Dataset loaded: dataset/GoCJ_Dataset_800.txt
+
+========== CONFIGURATION ==========
+Datacenters : 1
+Hosts       : 10 (5 Class A + 5 Class B)
+VMs         : 20
+Cloudlets   : 800
+Algorithm   : Minimum Execution Time (MET)
+
+VM assignment distribution:
+VM 0 -> 0 cloudlets
+VM 1 -> 0 cloudlets
+VM 2 -> 0 cloudlets
+VM 3 -> 0 cloudlets
+VM 4 -> 0 cloudlets
+VM 5 -> 0 cloudlets
+VM 6 -> 0 cloudlets
+VM 7 -> 0 cloudlets
+VM 8 -> 0 cloudlets
+VM 9 -> 0 cloudlets
+VM 10 -> 0 cloudlets
+VM 11 -> 0 cloudlets
+VM 12 -> 0 cloudlets
+VM 13 -> 0 cloudlets
+VM 14 -> 0 cloudlets
+VM 15 -> 800 cloudlets
+VM 16 -> 0 cloudlets
+VM 17 -> 0 cloudlets
+VM 18 -> 0 cloudlets
+VM 19 -> 0 cloudlets
+
+First 20 MET assignments:
+Cloudlet 0 -> VM 15
+Cloudlet 1 -> VM 15
+Cloudlet 2 -> VM 15
+Cloudlet 3 -> VM 15
+Cloudlet 4 -> VM 15
+Cloudlet 5 -> VM 15
+Cloudlet 6 -> VM 15
+Cloudlet 7 -> VM 15
+Cloudlet 8 -> VM 15
+Cloudlet 9 -> VM 15
+Cloudlet 10 -> VM 15
+Cloudlet 11 -> VM 15
+Cloudlet 12 -> VM 15
+Cloudlet 13 -> VM 15
+Cloudlet 14 -> VM 15
+Cloudlet 15 -> VM 15
+Cloudlet 16 -> VM 15
+Cloudlet 17 -> VM 15
+Cloudlet 18 -> VM 15
+Cloudlet 19 -> VM 15
+Starting CloudSim version 7.0
+0.0: Datacenter_0 is starting...
+0.0: MET_Broker is starting...
+Entities started.
+0.0: MET_Broker: Cloud Resource List received with 1 datacenter(s)
+0.0: MET_Broker: Trying to Create Vm #0 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #1 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #2 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #3 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #4 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #5 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #6 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #7 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #8 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #9 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #10 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #11 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #12 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #13 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #14 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #15 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #16 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #17 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #18 in Datacenter_0
+0.0: MET_Broker: Trying to Create Vm #19 in Datacenter_0
+0.0: Datacenter_0.guestAllocator: Vm #0 has been allocated to Host #5
+0.0: Datacenter_0.guestAllocator: Vm #1 has been allocated to Host #6
+0.0: Datacenter_0.guestAllocator: Vm #2 has been allocated to Host #7
+0.0: Datacenter_0.guestAllocator: Vm #3 has been allocated to Host #8
+0.0: Datacenter_0.guestAllocator: Vm #4 has been allocated to Host #9
+0.0: Datacenter_0.guestAllocator: Vm #5 has been allocated to Host #5
+0.0: Datacenter_0.guestAllocator: Vm #6 has been allocated to Host #6
+0.0: Datacenter_0.guestAllocator: Vm #7 has been allocated to Host #7
+0.0: Datacenter_0.guestAllocator: Vm #8 has been allocated to Host #8
+0.0: Datacenter_0.guestAllocator: Vm #9 has been allocated to Host #9
+0.0: Datacenter_0.guestAllocator: Vm #10 has been allocated to Host #5
+0.0: Datacenter_0.guestAllocator: Vm #11 has been allocated to Host #6
+0.0: Datacenter_0.guestAllocator: Vm #12 has been allocated to Host #7
+0.0: Datacenter_0.guestAllocator: Vm #13 has been allocated to Host #8
+0.0: Datacenter_0.guestAllocator: Vm #14 has been allocated to Host #9
+0.0: Datacenter_0.guestAllocator: Vm #15 has been allocated to Host #5
+0.0: Datacenter_0.guestAllocator: Vm #16 has been allocated to Host #6
+0.0: Datacenter_0.guestAllocator: Vm #17 has been allocated to Host #7
+0.0: Datacenter_0.guestAllocator: Vm #18 has been allocated to Host #8
+0.0: Datacenter_0.guestAllocator: Vm #19 has been allocated to Host #9
+0.01: MET_Broker: Vm #0 has been created in Datacenter #2, Host #5
+0.01: MET_Broker: Vm #1 has been created in Datacenter #2, Host #6
+0.01: MET_Broker: Vm #2 has been created in Datacenter #2, Host #7
+0.01: MET_Broker: Vm #3 has been created in Datacenter #2, Host #8
+0.01: MET_Broker: Vm #4 has been created in Datacenter #2, Host #9
+0.01: MET_Broker: Vm #5 has been created in Datacenter #2, Host #5
+0.01: MET_Broker: Vm #6 has been created in Datacenter #2, Host #6
+0.01: MET_Broker: Vm #7 has been created in Datacenter #2, Host #7
+0.01: MET_Broker: Vm #8 has been created in Datacenter #2, Host #8
+0.01: MET_Broker: Vm #9 has been created in Datacenter #2, Host #9
+0.01: MET_Broker: Vm #10 has been created in Datacenter #2, Host #5
+0.01: MET_Broker: Vm #11 has been created in Datacenter #2, Host #6
+0.01: MET_Broker: Vm #12 has been created in Datacenter #2, Host #7
+0.01: MET_Broker: Vm #13 has been created in Datacenter #2, Host #8
+0.01: MET_Broker: Vm #14 has been created in Datacenter #2, Host #9
+0.01: MET_Broker: Vm #15 has been created in Datacenter #2, Host #5
+0.01: MET_Broker: Vm #16 has been created in Datacenter #2, Host #6
+0.01: MET_Broker: Vm #17 has been created in Datacenter #2, Host #7
+0.01: MET_Broker: Vm #18 has been created in Datacenter #2, Host #8
+0.01: MET_Broker: Vm #19 has been created in Datacenter #2, Host #9
+0.01: MET_Broker: Sending Cloudlet #0 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #1 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #2 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #3 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #4 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #5 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #6 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #7 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #8 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #9 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #10 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #11 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #12 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #13 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #14 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #15 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #16 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #17 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #18 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #19 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #20 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #21 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #22 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #23 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #24 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #25 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #26 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #27 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #28 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #29 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #30 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #31 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #32 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #33 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #34 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #35 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #36 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #37 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #38 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #39 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #40 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #41 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #42 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #43 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #44 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #45 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #46 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #47 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #48 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #49 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #50 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #51 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #52 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #53 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #54 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #55 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #56 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #57 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #58 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #59 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #60 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #61 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #62 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #63 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #64 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #65 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #66 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #67 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #68 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #69 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #70 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #71 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #72 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #73 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #74 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #75 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #76 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #77 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #78 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #79 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #80 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #81 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #82 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #83 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #84 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #85 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #86 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #87 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #88 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #89 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #90 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #91 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #92 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #93 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #94 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #95 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #96 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #97 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #98 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #99 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #100 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #101 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #102 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #103 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #104 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #105 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #106 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #107 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #108 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #109 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #110 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #111 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #112 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #113 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #114 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #115 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #116 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #117 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #118 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #119 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #120 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #121 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #122 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #123 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #124 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #125 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #126 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #127 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #128 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #129 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #130 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #131 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #132 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #133 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #134 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #135 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #136 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #137 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #138 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #139 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #140 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #141 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #142 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #143 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #144 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #145 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #146 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #147 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #148 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #149 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #150 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #151 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #152 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #153 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #154 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #155 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #156 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #157 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #158 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #159 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #160 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #161 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #162 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #163 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #164 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #165 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #166 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #167 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #168 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #169 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #170 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #171 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #172 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #173 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #174 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #175 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #176 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #177 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #178 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #179 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #180 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #181 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #182 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #183 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #184 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #185 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #186 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #187 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #188 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #189 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #190 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #191 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #192 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #193 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #194 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #195 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #196 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #197 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #198 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #199 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #200 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #201 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #202 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #203 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #204 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #205 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #206 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #207 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #208 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #209 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #210 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #211 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #212 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #213 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #214 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #215 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #216 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #217 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #218 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #219 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #220 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #221 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #222 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #223 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #224 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #225 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #226 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #227 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #228 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #229 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #230 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #231 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #232 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #233 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #234 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #235 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #236 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #237 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #238 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #239 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #240 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #241 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #242 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #243 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #244 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #245 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #246 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #247 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #248 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #249 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #250 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #251 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #252 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #253 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #254 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #255 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #256 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #257 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #258 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #259 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #260 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #261 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #262 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #263 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #264 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #265 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #266 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #267 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #268 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #269 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #270 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #271 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #272 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #273 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #274 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #275 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #276 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #277 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #278 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #279 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #280 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #281 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #282 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #283 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #284 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #285 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #286 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #287 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #288 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #289 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #290 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #291 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #292 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #293 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #294 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #295 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #296 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #297 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #298 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #299 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #300 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #301 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #302 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #303 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #304 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #305 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #306 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #307 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #308 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #309 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #310 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #311 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #312 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #313 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #314 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #315 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #316 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #317 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #318 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #319 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #320 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #321 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #322 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #323 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #324 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #325 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #326 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #327 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #328 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #329 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #330 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #331 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #332 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #333 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #334 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #335 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #336 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #337 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #338 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #339 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #340 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #341 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #342 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #343 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #344 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #345 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #346 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #347 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #348 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #349 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #350 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #351 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #352 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #353 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #354 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #355 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #356 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #357 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #358 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #359 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #360 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #361 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #362 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #363 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #364 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #365 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #366 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #367 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #368 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #369 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #370 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #371 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #372 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #373 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #374 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #375 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #376 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #377 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #378 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #379 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #380 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #381 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #382 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #383 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #384 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #385 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #386 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #387 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #388 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #389 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #390 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #391 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #392 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #393 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #394 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #395 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #396 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #397 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #398 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #399 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #400 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #401 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #402 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #403 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #404 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #405 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #406 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #407 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #408 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #409 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #410 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #411 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #412 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #413 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #414 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #415 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #416 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #417 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #418 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #419 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #420 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #421 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #422 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #423 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #424 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #425 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #426 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #427 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #428 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #429 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #430 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #431 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #432 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #433 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #434 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #435 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #436 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #437 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #438 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #439 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #440 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #441 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #442 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #443 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #444 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #445 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #446 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #447 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #448 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #449 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #450 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #451 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #452 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #453 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #454 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #455 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #456 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #457 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #458 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #459 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #460 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #461 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #462 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #463 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #464 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #465 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #466 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #467 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #468 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #469 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #470 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #471 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #472 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #473 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #474 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #475 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #476 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #477 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #478 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #479 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #480 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #481 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #482 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #483 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #484 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #485 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #486 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #487 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #488 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #489 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #490 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #491 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #492 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #493 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #494 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #495 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #496 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #497 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #498 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #499 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #500 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #501 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #502 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #503 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #504 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #505 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #506 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #507 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #508 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #509 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #510 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #511 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #512 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #513 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #514 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #515 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #516 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #517 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #518 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #519 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #520 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #521 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #522 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #523 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #524 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #525 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #526 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #527 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #528 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #529 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #530 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #531 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #532 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #533 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #534 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #535 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #536 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #537 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #538 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #539 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #540 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #541 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #542 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #543 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #544 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #545 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #546 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #547 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #548 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #549 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #550 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #551 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #552 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #553 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #554 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #555 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #556 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #557 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #558 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #559 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #560 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #561 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #562 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #563 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #564 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #565 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #566 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #567 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #568 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #569 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #570 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #571 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #572 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #573 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #574 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #575 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #576 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #577 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #578 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #579 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #580 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #581 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #582 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #583 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #584 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #585 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #586 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #587 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #588 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #589 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #590 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #591 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #592 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #593 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #594 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #595 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #596 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #597 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #598 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #599 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #600 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #601 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #602 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #603 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #604 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #605 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #606 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #607 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #608 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #609 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #610 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #611 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #612 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #613 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #614 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #615 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #616 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #617 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #618 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #619 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #620 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #621 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #622 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #623 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #624 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #625 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #626 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #627 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #628 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #629 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #630 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #631 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #632 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #633 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #634 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #635 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #636 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #637 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #638 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #639 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #640 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #641 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #642 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #643 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #644 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #645 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #646 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #647 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #648 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #649 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #650 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #651 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #652 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #653 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #654 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #655 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #656 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #657 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #658 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #659 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #660 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #661 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #662 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #663 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #664 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #665 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #666 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #667 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #668 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #669 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #670 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #671 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #672 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #673 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #674 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #675 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #676 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #677 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #678 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #679 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #680 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #681 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #682 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #683 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #684 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #685 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #686 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #687 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #688 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #689 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #690 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #691 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #692 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #693 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #694 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #695 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #696 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #697 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #698 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #699 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #700 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #701 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #702 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #703 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #704 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #705 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #706 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #707 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #708 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #709 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #710 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #711 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #712 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #713 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #714 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #715 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #716 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #717 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #718 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #719 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #720 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #721 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #722 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #723 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #724 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #725 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #726 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #727 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #728 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #729 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #730 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #731 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #732 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #733 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #734 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #735 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #736 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #737 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #738 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #739 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #740 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #741 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #742 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #743 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #744 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #745 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #746 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #747 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #748 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #749 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #750 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #751 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #752 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #753 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #754 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #755 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #756 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #757 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #758 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #759 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #760 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #761 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #762 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #763 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #764 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #765 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #766 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #767 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #768 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #769 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #770 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #771 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #772 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #773 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #774 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #775 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #776 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #777 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #778 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #779 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #780 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #781 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #782 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #783 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #784 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #785 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #786 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #787 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #788 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #789 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #790 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #791 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #792 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #793 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #794 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #795 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #796 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #797 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #798 to Vm #15
+0.01: MET_Broker: Sending Cloudlet #799 to Vm #15
+25.21: MET_Broker: Cloudlet #0 return received
+25.21: MET_Broker: The number of finished Cloudlets is:1
+30.810000000000002: MET_Broker: Cloudlet #2 return received
+30.810000000000002: MET_Broker: The number of finished Cloudlets is:2
+34.809999999999995: MET_Broker: Cloudlet #1 return received
+34.809999999999995: MET_Broker: The number of finished Cloudlets is:3
+57.61: MET_Broker: Cloudlet #4 return received
+57.61: MET_Broker: The number of finished Cloudlets is:4
+68.01: MET_Broker: Cloudlet #6 return received
+68.01: MET_Broker: The number of finished Cloudlets is:5
+84.81: MET_Broker: Cloudlet #5 return received
+84.81: MET_Broker: The number of finished Cloudlets is:6
+91.61: MET_Broker: Cloudlet #8 return received
+91.61: MET_Broker: The number of finished Cloudlets is:7
+102.81: MET_Broker: Cloudlet #7 return received
+102.81: MET_Broker: The number of finished Cloudlets is:8
+110.81: MET_Broker: Cloudlet #9 return received
+110.81: MET_Broker: The number of finished Cloudlets is:9
+116.81: MET_Broker: Cloudlet #12 return received
+116.81: MET_Broker: The number of finished Cloudlets is:10
+118.41: MET_Broker: Cloudlet #10 return received
+118.41: MET_Broker: The number of finished Cloudlets is:11
+122.41: MET_Broker: Cloudlet #11 return received
+122.41: MET_Broker: The number of finished Cloudlets is:12
+135.01: MET_Broker: Cloudlet #3 return received
+135.01: MET_Broker: The number of finished Cloudlets is:13
+141.20999999999998: MET_Broker: Cloudlet #13 return received
+141.20999999999998: MET_Broker: The number of finished Cloudlets is:14
+152.40999999999997: MET_Broker: Cloudlet #15 return received
+152.40999999999997: MET_Broker: The number of finished Cloudlets is:15
+158.00999999999996: MET_Broker: Cloudlet #14 return received
+158.00999999999996: MET_Broker: The number of finished Cloudlets is:16
+172.20999999999995: MET_Broker: Cloudlet #16 return received
+172.20999999999995: MET_Broker: The number of finished Cloudlets is:17
+183.20999999999995: MET_Broker: Cloudlet #18 return received
+183.20999999999995: MET_Broker: The number of finished Cloudlets is:18
+188.00999999999996: MET_Broker: Cloudlet #17 return received
+188.00999999999996: MET_Broker: The number of finished Cloudlets is:19
+200.80999999999997: MET_Broker: Cloudlet #19 return received
+200.80999999999997: MET_Broker: The number of finished Cloudlets is:20
+210.00999999999996: MET_Broker: Cloudlet #21 return received
+210.00999999999996: MET_Broker: The number of finished Cloudlets is:21
+226.80999999999997: MET_Broker: Cloudlet #22 return received
+226.80999999999997: MET_Broker: The number of finished Cloudlets is:22
+232.20999999999998: MET_Broker: Cloudlet #20 return received
+232.20999999999998: MET_Broker: The number of finished Cloudlets is:23
+235.20999999999998: MET_Broker: Cloudlet #24 return received
+235.20999999999998: MET_Broker: The number of finished Cloudlets is:24
+239.60999999999999: MET_Broker: Cloudlet #23 return received
+239.60999999999999: MET_Broker: The number of finished Cloudlets is:25
+251.80999999999997: MET_Broker: Cloudlet #26 return received
+251.80999999999997: MET_Broker: The number of finished Cloudlets is:26
+266.01: MET_Broker: Cloudlet #27 return received
+266.01: MET_Broker: The number of finished Cloudlets is:27
+277.61: MET_Broker: Cloudlet #25 return received
+277.61: MET_Broker: The number of finished Cloudlets is:28
+312.81: MET_Broker: Cloudlet #30 return received
+312.81: MET_Broker: The number of finished Cloudlets is:29
+314.81: MET_Broker: Cloudlet #31 return received
+314.81: MET_Broker: The number of finished Cloudlets is:30
+368.81: MET_Broker: Cloudlet #33 return received
+368.81: MET_Broker: The number of finished Cloudlets is:31
+413.21: MET_Broker: Cloudlet #34 return received
+413.21: MET_Broker: The number of finished Cloudlets is:32
+431.21: MET_Broker: Cloudlet #35 return received
+431.21: MET_Broker: The number of finished Cloudlets is:33
+464.40999999999997: MET_Broker: Cloudlet #36 return received
+464.40999999999997: MET_Broker: The number of finished Cloudlets is:34
+494.40999999999997: MET_Broker: Cloudlet #37 return received
+494.40999999999997: MET_Broker: The number of finished Cloudlets is:35
+524.61: MET_Broker: Cloudlet #28 return received
+524.61: MET_Broker: The number of finished Cloudlets is:36
+533.21: MET_Broker: Cloudlet #38 return received
+533.21: MET_Broker: The number of finished Cloudlets is:37
+536.8100000000001: MET_Broker: Cloudlet #29 return received
+536.8100000000001: MET_Broker: The number of finished Cloudlets is:38
+551.21: MET_Broker: Cloudlet #40 return received
+551.21: MET_Broker: The number of finished Cloudlets is:39
+562.61: MET_Broker: Cloudlet #39 return received
+562.61: MET_Broker: The number of finished Cloudlets is:40
+567.61: MET_Broker: Cloudlet #41 return received
+567.61: MET_Broker: The number of finished Cloudlets is:41
+572.41: MET_Broker: Cloudlet #42 return received
+572.41: MET_Broker: The number of finished Cloudlets is:42
+596.61: MET_Broker: Cloudlet #43 return received
+596.61: MET_Broker: The number of finished Cloudlets is:43
+597.8100000000001: MET_Broker: Cloudlet #32 return received
+597.8100000000001: MET_Broker: The number of finished Cloudlets is:44
+609.61: MET_Broker: Cloudlet #45 return received
+609.61: MET_Broker: The number of finished Cloudlets is:45
+627.61: MET_Broker: Cloudlet #44 return received
+627.61: MET_Broker: The number of finished Cloudlets is:46
+635.01: MET_Broker: Cloudlet #47 return received
+635.01: MET_Broker: The number of finished Cloudlets is:47
+637.81: MET_Broker: Cloudlet #46 return received
+637.81: MET_Broker: The number of finished Cloudlets is:48
+651.01: MET_Broker: Cloudlet #50 return received
+651.01: MET_Broker: The number of finished Cloudlets is:49
+665.61: MET_Broker: Cloudlet #49 return received
+665.61: MET_Broker: The number of finished Cloudlets is:50
+669.41: MET_Broker: Cloudlet #51 return received
+669.41: MET_Broker: The number of finished Cloudlets is:51
+690.61: MET_Broker: Cloudlet #52 return received
+690.61: MET_Broker: The number of finished Cloudlets is:52
+695.41: MET_Broker: Cloudlet #54 return received
+695.41: MET_Broker: The number of finished Cloudlets is:53
+714.81: MET_Broker: Cloudlet #53 return received
+714.81: MET_Broker: The number of finished Cloudlets is:54
+716.6099999999999: MET_Broker: Cloudlet #56 return received
+716.6099999999999: MET_Broker: The number of finished Cloudlets is:55
+760.81: MET_Broker: Cloudlet #57 return received
+760.81: MET_Broker: The number of finished Cloudlets is:56
+776.6099999999999: MET_Broker: Cloudlet #58 return received
+776.6099999999999: MET_Broker: The number of finished Cloudlets is:57
+826.6099999999999: MET_Broker: Cloudlet #60 return received
+826.6099999999999: MET_Broker: The number of finished Cloudlets is:58
+870.2099999999999: MET_Broker: Cloudlet #61 return received
+870.2099999999999: MET_Broker: The number of finished Cloudlets is:59
+895.81: MET_Broker: Cloudlet #59 return received
+895.81: MET_Broker: The number of finished Cloudlets is:60
+900.6099999999999: MET_Broker: Cloudlet #55 return received
+900.6099999999999: MET_Broker: The number of finished Cloudlets is:61
+913.81: MET_Broker: Cloudlet #62 return received
+913.81: MET_Broker: The number of finished Cloudlets is:62
+924.81: MET_Broker: Cloudlet #65 return received
+924.81: MET_Broker: The number of finished Cloudlets is:63
+944.2099999999999: MET_Broker: Cloudlet #64 return received
+944.2099999999999: MET_Broker: The number of finished Cloudlets is:64
+962.2099999999999: MET_Broker: Cloudlet #67 return received
+962.2099999999999: MET_Broker: The number of finished Cloudlets is:65
+969.6099999999999: MET_Broker: Cloudlet #48 return received
+969.6099999999999: MET_Broker: The number of finished Cloudlets is:66
+986.6099999999999: MET_Broker: Cloudlet #68 return received
+986.6099999999999: MET_Broker: The number of finished Cloudlets is:67
+993.2099999999999: MET_Broker: Cloudlet #69 return received
+993.2099999999999: MET_Broker: The number of finished Cloudlets is:68
+1033.61: MET_Broker: Cloudlet #71 return received
+1033.61: MET_Broker: The number of finished Cloudlets is:69
+1062.01: MET_Broker: Cloudlet #72 return received
+1062.01: MET_Broker: The number of finished Cloudlets is:70
+1108.01: MET_Broker: Cloudlet #73 return received
+1108.01: MET_Broker: The number of finished Cloudlets is:71
+1132.41: MET_Broker: Cloudlet #74 return received
+1132.41: MET_Broker: The number of finished Cloudlets is:72
+1143.41: MET_Broker: Cloudlet #75 return received
+1143.41: MET_Broker: The number of finished Cloudlets is:73
+1162.21: MET_Broker: Cloudlet #76 return received
+1162.21: MET_Broker: The number of finished Cloudlets is:74
+1209.81: MET_Broker: Cloudlet #66 return received
+1209.81: MET_Broker: The number of finished Cloudlets is:75
+1210.61: MET_Broker: Cloudlet #77 return received
+1210.61: MET_Broker: The number of finished Cloudlets is:76
+1246.2099999999998: MET_Broker: Cloudlet #79 return received
+1246.2099999999998: MET_Broker: The number of finished Cloudlets is:77
+1255.8099999999997: MET_Broker: Cloudlet #63 return received
+1255.8099999999997: MET_Broker: The number of finished Cloudlets is:78
+1255.8099999999997: MET_Broker: Cloudlet #78 return received
+1255.8099999999997: MET_Broker: The number of finished Cloudlets is:79
+1271.6099999999997: MET_Broker: Cloudlet #70 return received
+1271.6099999999997: MET_Broker: The number of finished Cloudlets is:80
+1290.4099999999996: MET_Broker: Cloudlet #82 return received
+1290.4099999999996: MET_Broker: The number of finished Cloudlets is:81
+1297.8099999999997: MET_Broker: Cloudlet #80 return received
+1297.8099999999997: MET_Broker: The number of finished Cloudlets is:82
+1312.4099999999996: MET_Broker: Cloudlet #83 return received
+1312.4099999999996: MET_Broker: The number of finished Cloudlets is:83
+1323.8099999999997: MET_Broker: Cloudlet #84 return received
+1323.8099999999997: MET_Broker: The number of finished Cloudlets is:84
+1353.6099999999997: MET_Broker: Cloudlet #85 return received
+1353.6099999999997: MET_Broker: The number of finished Cloudlets is:85
+1362.6099999999997: MET_Broker: Cloudlet #86 return received
+1362.6099999999997: MET_Broker: The number of finished Cloudlets is:86
+1384.4099999999996: MET_Broker: Cloudlet #87 return received
+1384.4099999999996: MET_Broker: The number of finished Cloudlets is:87
+1395.4099999999996: MET_Broker: Cloudlet #89 return received
+1395.4099999999996: MET_Broker: The number of finished Cloudlets is:88
+1398.2099999999996: MET_Broker: Cloudlet #88 return received
+1398.2099999999996: MET_Broker: The number of finished Cloudlets is:89
+1438.6099999999997: MET_Broker: Cloudlet #91 return received
+1438.6099999999997: MET_Broker: The number of finished Cloudlets is:90
+1445.4099999999996: MET_Broker: Cloudlet #90 return received
+1445.4099999999996: MET_Broker: The number of finished Cloudlets is:91
+1465.8099999999997: MET_Broker: Cloudlet #81 return received
+1465.8099999999997: MET_Broker: The number of finished Cloudlets is:92
+1489.8099999999997: MET_Broker: Cloudlet #93 return received
+1489.8099999999997: MET_Broker: The number of finished Cloudlets is:93
+1498.6099999999997: MET_Broker: Cloudlet #92 return received
+1498.6099999999997: MET_Broker: The number of finished Cloudlets is:94
+1533.4099999999996: MET_Broker: Cloudlet #95 return received
+1533.4099999999996: MET_Broker: The number of finished Cloudlets is:95
+1536.6099999999997: MET_Broker: Cloudlet #96 return received
+1536.6099999999997: MET_Broker: The number of finished Cloudlets is:96
+1558.6099999999997: MET_Broker: Cloudlet #97 return received
+1558.6099999999997: MET_Broker: The number of finished Cloudlets is:97
+1561.8099999999997: MET_Broker: Cloudlet #98 return received
+1561.8099999999997: MET_Broker: The number of finished Cloudlets is:98
+1587.0099999999998: MET_Broker: Cloudlet #99 return received
+1587.0099999999998: MET_Broker: The number of finished Cloudlets is:99
+1591.0099999999998: MET_Broker: Cloudlet #100 return received
+1591.0099999999998: MET_Broker: The number of finished Cloudlets is:100
+1609.0099999999998: MET_Broker: Cloudlet #101 return received
+1609.0099999999998: MET_Broker: The number of finished Cloudlets is:101
+1615.0099999999998: MET_Broker: Cloudlet #103 return received
+1615.0099999999998: MET_Broker: The number of finished Cloudlets is:102
+1633.0099999999998: MET_Broker: Cloudlet #102 return received
+1633.0099999999998: MET_Broker: The number of finished Cloudlets is:103
+1644.2099999999998: MET_Broker: Cloudlet #104 return received
+1644.2099999999998: MET_Broker: The number of finished Cloudlets is:104
+1670.2099999999998: MET_Broker: Cloudlet #105 return received
+1670.2099999999998: MET_Broker: The number of finished Cloudlets is:105
+1690.2099999999998: MET_Broker: Cloudlet #106 return received
+1690.2099999999998: MET_Broker: The number of finished Cloudlets is:106
+1698.61: MET_Broker: Cloudlet #107 return received
+1698.61: MET_Broker: The number of finished Cloudlets is:107
+1739.4099999999999: MET_Broker: Cloudlet #108 return received
+1739.4099999999999: MET_Broker: The number of finished Cloudlets is:108
+1742.2099999999998: MET_Broker: Cloudlet #109 return received
+1742.2099999999998: MET_Broker: The number of finished Cloudlets is:109
+1750.8099999999997: MET_Broker: Cloudlet #94 return received
+1750.8099999999997: MET_Broker: The number of finished Cloudlets is:110
+1775.8099999999997: MET_Broker: Cloudlet #110 return received
+1775.8099999999997: MET_Broker: The number of finished Cloudlets is:111
+1776.0099999999998: MET_Broker: Cloudlet #112 return received
+1776.0099999999998: MET_Broker: The number of finished Cloudlets is:112
+1792.2099999999998: MET_Broker: Cloudlet #111 return received
+1792.2099999999998: MET_Broker: The number of finished Cloudlets is:113
+1805.8099999999997: MET_Broker: Cloudlet #113 return received
+1805.8099999999997: MET_Broker: The number of finished Cloudlets is:114
+1817.4099999999996: MET_Broker: Cloudlet #115 return received
+1817.4099999999996: MET_Broker: The number of finished Cloudlets is:115
+1826.0099999999995: MET_Broker: Cloudlet #114 return received
+1826.0099999999995: MET_Broker: The number of finished Cloudlets is:116
+1846.2099999999996: MET_Broker: Cloudlet #116 return received
+1846.2099999999996: MET_Broker: The number of finished Cloudlets is:117
+1865.0099999999995: MET_Broker: Cloudlet #117 return received
+1865.0099999999995: MET_Broker: The number of finished Cloudlets is:118
+1868.0099999999995: MET_Broker: Cloudlet #118 return received
+1868.0099999999995: MET_Broker: The number of finished Cloudlets is:119
+1873.0099999999995: MET_Broker: Cloudlet #119 return received
+1873.0099999999995: MET_Broker: The number of finished Cloudlets is:120
+1914.2099999999996: MET_Broker: Cloudlet #120 return received
+1914.2099999999996: MET_Broker: The number of finished Cloudlets is:121
+1914.2099999999996: MET_Broker: Cloudlet #122 return received
+1914.2099999999996: MET_Broker: The number of finished Cloudlets is:122
+1917.2099999999996: MET_Broker: Cloudlet #121 return received
+1917.2099999999996: MET_Broker: The number of finished Cloudlets is:123
+1933.2099999999996: MET_Broker: Cloudlet #124 return received
+1933.2099999999996: MET_Broker: The number of finished Cloudlets is:124
+1952.0099999999995: MET_Broker: Cloudlet #125 return received
+1952.0099999999995: MET_Broker: The number of finished Cloudlets is:125
+1957.0099999999995: MET_Broker: Cloudlet #123 return received
+1957.0099999999995: MET_Broker: The number of finished Cloudlets is:126
+1977.2099999999996: MET_Broker: Cloudlet #126 return received
+1977.2099999999996: MET_Broker: The number of finished Cloudlets is:127
+2001.4099999999996: MET_Broker: Cloudlet #127 return received
+2001.4099999999996: MET_Broker: The number of finished Cloudlets is:128
+2012.8099999999997: MET_Broker: Cloudlet #128 return received
+2012.8099999999997: MET_Broker: The number of finished Cloudlets is:129
+2040.2099999999998: MET_Broker: Cloudlet #129 return received
+2040.2099999999998: MET_Broker: The number of finished Cloudlets is:130
+2056.41: MET_Broker: Cloudlet #130 return received
+2056.41: MET_Broker: The number of finished Cloudlets is:131
+2060.6099999999997: MET_Broker: Cloudlet #131 return received
+2060.6099999999997: MET_Broker: The number of finished Cloudlets is:132
+2067.41: MET_Broker: Cloudlet #132 return received
+2067.41: MET_Broker: The number of finished Cloudlets is:133
+2085.0099999999998: MET_Broker: Cloudlet #133 return received
+2085.0099999999998: MET_Broker: The number of finished Cloudlets is:134
+2116.6099999999997: MET_Broker: Cloudlet #134 return received
+2116.6099999999997: MET_Broker: The number of finished Cloudlets is:135
+2132.6099999999997: MET_Broker: Cloudlet #135 return received
+2132.6099999999997: MET_Broker: The number of finished Cloudlets is:136
+2145.0099999999998: MET_Broker: Cloudlet #136 return received
+2145.0099999999998: MET_Broker: The number of finished Cloudlets is:137
+2170.6099999999997: MET_Broker: Cloudlet #137 return received
+2170.6099999999997: MET_Broker: The number of finished Cloudlets is:138
+2187.0099999999998: MET_Broker: Cloudlet #138 return received
+2187.0099999999998: MET_Broker: The number of finished Cloudlets is:139
+2189.41: MET_Broker: Cloudlet #139 return received
+2189.41: MET_Broker: The number of finished Cloudlets is:140
+2207.41: MET_Broker: Cloudlet #141 return received
+2207.41: MET_Broker: The number of finished Cloudlets is:141
+2218.6099999999997: MET_Broker: Cloudlet #140 return received
+2218.6099999999997: MET_Broker: The number of finished Cloudlets is:142
+2261.41: MET_Broker: Cloudlet #142 return received
+2261.41: MET_Broker: The number of finished Cloudlets is:143
+2265.41: MET_Broker: Cloudlet #143 return received
+2265.41: MET_Broker: The number of finished Cloudlets is:144
+2294.6099999999997: MET_Broker: Cloudlet #144 return received
+2294.6099999999997: MET_Broker: The number of finished Cloudlets is:145
+2300.6099999999997: MET_Broker: Cloudlet #146 return received
+2300.6099999999997: MET_Broker: The number of finished Cloudlets is:146
+2311.6099999999997: MET_Broker: Cloudlet #147 return received
+2311.6099999999997: MET_Broker: The number of finished Cloudlets is:147
+2314.6099999999997: MET_Broker: Cloudlet #145 return received
+2314.6099999999997: MET_Broker: The number of finished Cloudlets is:148
+2354.2099999999996: MET_Broker: Cloudlet #149 return received
+2354.2099999999996: MET_Broker: The number of finished Cloudlets is:149
+2357.6099999999997: MET_Broker: Cloudlet #148 return received
+2357.6099999999997: MET_Broker: The number of finished Cloudlets is:150
+2376.41: MET_Broker: Cloudlet #151 return received
+2376.41: MET_Broker: The number of finished Cloudlets is:151
+2396.0099999999998: MET_Broker: Cloudlet #152 return received
+2396.0099999999998: MET_Broker: The number of finished Cloudlets is:152
+2414.0099999999998: MET_Broker: Cloudlet #153 return received
+2414.0099999999998: MET_Broker: The number of finished Cloudlets is:153
+2440.81: MET_Broker: Cloudlet #154 return received
+2440.81: MET_Broker: The number of finished Cloudlets is:154
+2474.0099999999998: MET_Broker: Cloudlet #155 return received
+2474.0099999999998: MET_Broker: The number of finished Cloudlets is:155
+2639.2099999999996: MET_Broker: Cloudlet #150 return received
+2639.2099999999996: MET_Broker: The number of finished Cloudlets is:156
+2667.6099999999997: MET_Broker: Cloudlet #157 return received
+2667.6099999999997: MET_Broker: The number of finished Cloudlets is:157
+2717.6099999999997: MET_Broker: Cloudlet #158 return received
+2717.6099999999997: MET_Broker: The number of finished Cloudlets is:158
+2762.8099999999995: MET_Broker: Cloudlet #159 return received
+2762.8099999999995: MET_Broker: The number of finished Cloudlets is:159
+2780.8099999999995: MET_Broker: Cloudlet #160 return received
+2780.8099999999995: MET_Broker: The number of finished Cloudlets is:160
+2791.8099999999995: MET_Broker: Cloudlet #161 return received
+2791.8099999999995: MET_Broker: The number of finished Cloudlets is:161
+2810.6099999999997: MET_Broker: Cloudlet #162 return received
+2810.6099999999997: MET_Broker: The number of finished Cloudlets is:162
+2829.41: MET_Broker: Cloudlet #163 return received
+2829.41: MET_Broker: The number of finished Cloudlets is:163
+2834.0099999999998: MET_Broker: Cloudlet #156 return received
+2834.0099999999998: MET_Broker: The number of finished Cloudlets is:164
+2865.81: MET_Broker: Cloudlet #164 return received
+2865.81: MET_Broker: The number of finished Cloudlets is:165
+2894.21: MET_Broker: Cloudlet #166 return received
+2894.21: MET_Broker: The number of finished Cloudlets is:166
+2924.21: MET_Broker: Cloudlet #167 return received
+2924.21: MET_Broker: The number of finished Cloudlets is:167
+2967.81: MET_Broker: Cloudlet #168 return received
+2967.81: MET_Broker: The number of finished Cloudlets is:168
+3000.21: MET_Broker: Cloudlet #169 return received
+3000.21: MET_Broker: The number of finished Cloudlets is:169
+3194.01: MET_Broker: Cloudlet #165 return received
+3194.01: MET_Broker: The number of finished Cloudlets is:170
+3240.01: MET_Broker: Cloudlet #171 return received
+3240.01: MET_Broker: The number of finished Cloudlets is:171
+3263.61: MET_Broker: Cloudlet #172 return received
+3263.61: MET_Broker: The number of finished Cloudlets is:172
+3285.21: MET_Broker: Cloudlet #170 return received
+3285.21: MET_Broker: The number of finished Cloudlets is:173
+3300.81: MET_Broker: Cloudlet #173 return received
+3300.81: MET_Broker: The number of finished Cloudlets is:174
+3308.81: MET_Broker: Cloudlet #174 return received
+3308.81: MET_Broker: The number of finished Cloudlets is:175
+3326.0099999999998: MET_Broker: Cloudlet #175 return received
+3326.0099999999998: MET_Broker: The number of finished Cloudlets is:176
+3342.0099999999998: MET_Broker: Cloudlet #177 return received
+3342.0099999999998: MET_Broker: The number of finished Cloudlets is:177
+3343.6099999999997: MET_Broker: Cloudlet #176 return received
+3343.6099999999997: MET_Broker: The number of finished Cloudlets is:178
+3369.6099999999997: MET_Broker: Cloudlet #179 return received
+3369.6099999999997: MET_Broker: The number of finished Cloudlets is:179
+3390.0099999999998: MET_Broker: Cloudlet #180 return received
+3390.0099999999998: MET_Broker: The number of finished Cloudlets is:180
+3432.0099999999998: MET_Broker: Cloudlet #181 return received
+3432.0099999999998: MET_Broker: The number of finished Cloudlets is:181
+3477.0099999999998: MET_Broker: Cloudlet #178 return received
+3477.0099999999998: MET_Broker: The number of finished Cloudlets is:182
+3521.41: MET_Broker: Cloudlet #183 return received
+3521.41: MET_Broker: The number of finished Cloudlets is:183
+3558.6099999999997: MET_Broker: Cloudlet #184 return received
+3558.6099999999997: MET_Broker: The number of finished Cloudlets is:184
+3567.0099999999998: MET_Broker: Cloudlet #182 return received
+3567.0099999999998: MET_Broker: The number of finished Cloudlets is:185
+3598.2099999999996: MET_Broker: Cloudlet #185 return received
+3598.2099999999996: MET_Broker: The number of finished Cloudlets is:186
+3615.4099999999994: MET_Broker: Cloudlet #186 return received
+3615.4099999999994: MET_Broker: The number of finished Cloudlets is:187
+3639.8099999999995: MET_Broker: Cloudlet #188 return received
+3639.8099999999995: MET_Broker: The number of finished Cloudlets is:188
+3645.0099999999993: MET_Broker: Cloudlet #187 return received
+3645.0099999999993: MET_Broker: The number of finished Cloudlets is:189
+3665.4099999999994: MET_Broker: Cloudlet #190 return received
+3665.4099999999994: MET_Broker: The number of finished Cloudlets is:190
+3687.4099999999994: MET_Broker: Cloudlet #189 return received
+3687.4099999999994: MET_Broker: The number of finished Cloudlets is:191
+3699.4099999999994: MET_Broker: Cloudlet #191 return received
+3699.4099999999994: MET_Broker: The number of finished Cloudlets is:192
+3718.2099999999996: MET_Broker: Cloudlet #192 return received
+3718.2099999999996: MET_Broker: The number of finished Cloudlets is:193
+3721.4099999999994: MET_Broker: Cloudlet #193 return received
+3721.4099999999994: MET_Broker: The number of finished Cloudlets is:194
+3738.609999999999: MET_Broker: Cloudlet #194 return received
+3738.609999999999: MET_Broker: The number of finished Cloudlets is:195
+3769.0099999999993: MET_Broker: Cloudlet #195 return received
+3769.0099999999993: MET_Broker: The number of finished Cloudlets is:196
+3777.4099999999994: MET_Broker: Cloudlet #196 return received
+3777.4099999999994: MET_Broker: The number of finished Cloudlets is:197
+3817.4099999999994: MET_Broker: Cloudlet #197 return received
+3817.4099999999994: MET_Broker: The number of finished Cloudlets is:198
+3851.4099999999994: MET_Broker: Cloudlet #199 return received
+3851.4099999999994: MET_Broker: The number of finished Cloudlets is:199
+3871.8099999999995: MET_Broker: Cloudlet #200 return received
+3871.8099999999995: MET_Broker: The number of finished Cloudlets is:200
+3895.4099999999994: MET_Broker: Cloudlet #201 return received
+3895.4099999999994: MET_Broker: The number of finished Cloudlets is:201
+3930.2099999999996: MET_Broker: Cloudlet #202 return received
+3930.2099999999996: MET_Broker: The number of finished Cloudlets is:202
+3954.6099999999997: MET_Broker: Cloudlet #203 return received
+3954.6099999999997: MET_Broker: The number of finished Cloudlets is:203
+4006.2099999999996: MET_Broker: Cloudlet #204 return received
+4006.2099999999996: MET_Broker: The number of finished Cloudlets is:204
+4036.2099999999996: MET_Broker: Cloudlet #205 return received
+4036.2099999999996: MET_Broker: The number of finished Cloudlets is:205
+4075.0099999999998: MET_Broker: Cloudlet #206 return received
+4075.0099999999998: MET_Broker: The number of finished Cloudlets is:206
+4111.41: MET_Broker: Cloudlet #207 return received
+4111.41: MET_Broker: The number of finished Cloudlets is:207
+4137.41: MET_Broker: Cloudlet #198 return received
+4137.41: MET_Broker: The number of finished Cloudlets is:208
+4162.21: MET_Broker: Cloudlet #208 return received
+4162.21: MET_Broker: The number of finished Cloudlets is:209
+4162.61: MET_Broker: Cloudlet #209 return received
+4162.61: MET_Broker: The number of finished Cloudlets is:210
+4195.8099999999995: MET_Broker: Cloudlet #211 return received
+4195.8099999999995: MET_Broker: The number of finished Cloudlets is:211
+4213.009999999999: MET_Broker: Cloudlet #210 return received
+4213.009999999999: MET_Broker: The number of finished Cloudlets is:212
+4229.8099999999995: MET_Broker: Cloudlet #212 return received
+4229.8099999999995: MET_Broker: The number of finished Cloudlets is:213
+4246.209999999999: MET_Broker: Cloudlet #213 return received
+4246.209999999999: MET_Broker: The number of finished Cloudlets is:214
+4251.8099999999995: MET_Broker: Cloudlet #214 return received
+4251.8099999999995: MET_Broker: The number of finished Cloudlets is:215
+4294.61: MET_Broker: Cloudlet #216 return received
+4294.61: MET_Broker: The number of finished Cloudlets is:216
+4316.61: MET_Broker: Cloudlet #217 return received
+4316.61: MET_Broker: The number of finished Cloudlets is:217
+4365.009999999999: MET_Broker: Cloudlet #218 return received
+4365.009999999999: MET_Broker: The number of finished Cloudlets is:218
+4408.61: MET_Broker: Cloudlet #219 return received
+4408.61: MET_Broker: The number of finished Cloudlets is:219
+4441.009999999999: MET_Broker: Cloudlet #220 return received
+4441.009999999999: MET_Broker: The number of finished Cloudlets is:220
+4456.209999999999: MET_Broker: Cloudlet #215 return received
+4456.209999999999: MET_Broker: The number of finished Cloudlets is:221
+4491.8099999999995: MET_Broker: Cloudlet #222 return received
+4491.8099999999995: MET_Broker: The number of finished Cloudlets is:222
+4515.41: MET_Broker: Cloudlet #223 return received
+4515.41: MET_Broker: The number of finished Cloudlets is:223
+4561.41: MET_Broker: Cloudlet #224 return received
+4561.41: MET_Broker: The number of finished Cloudlets is:224
+4601.01: MET_Broker: Cloudlet #225 return received
+4601.01: MET_Broker: The number of finished Cloudlets is:225
+4626.21: MET_Broker: Cloudlet #226 return received
+4626.21: MET_Broker: The number of finished Cloudlets is:226
+4648.21: MET_Broker: Cloudlet #227 return received
+4648.21: MET_Broker: The number of finished Cloudlets is:227
+4651.01: MET_Broker: Cloudlet #221 return received
+4651.01: MET_Broker: The number of finished Cloudlets is:228
+4670.21: MET_Broker: Cloudlet #228 return received
+4670.21: MET_Broker: The number of finished Cloudlets is:229
+4677.01: MET_Broker: Cloudlet #229 return received
+4677.01: MET_Broker: The number of finished Cloudlets is:230
+4717.01: MET_Broker: Cloudlet #230 return received
+4717.01: MET_Broker: The number of finished Cloudlets is:231
+4724.610000000001: MET_Broker: Cloudlet #231 return received
+4724.610000000001: MET_Broker: The number of finished Cloudlets is:232
+4738.210000000001: MET_Broker: Cloudlet #232 return received
+4738.210000000001: MET_Broker: The number of finished Cloudlets is:233
+4755.410000000001: MET_Broker: Cloudlet #233 return received
+4755.410000000001: MET_Broker: The number of finished Cloudlets is:234
+4776.210000000001: MET_Broker: Cloudlet #234 return received
+4776.210000000001: MET_Broker: The number of finished Cloudlets is:235
+4779.810000000001: MET_Broker: Cloudlet #235 return received
+4779.810000000001: MET_Broker: The number of finished Cloudlets is:236
+4795.810000000001: MET_Broker: Cloudlet #236 return received
+4795.810000000001: MET_Broker: The number of finished Cloudlets is:237
+4806.6100000000015: MET_Broker: Cloudlet #237 return received
+4806.6100000000015: MET_Broker: The number of finished Cloudlets is:238
+4827.410000000002: MET_Broker: Cloudlet #238 return received
+4827.410000000002: MET_Broker: The number of finished Cloudlets is:239
+4847.810000000001: MET_Broker: Cloudlet #239 return received
+4847.810000000001: MET_Broker: The number of finished Cloudlets is:240
+4848.6100000000015: MET_Broker: Cloudlet #240 return received
+4848.6100000000015: MET_Broker: The number of finished Cloudlets is:241
+4877.810000000001: MET_Broker: Cloudlet #242 return received
+4877.810000000001: MET_Broker: The number of finished Cloudlets is:242
+4883.810000000001: MET_Broker: Cloudlet #243 return received
+4883.810000000001: MET_Broker: The number of finished Cloudlets is:243
+4884.210000000001: MET_Broker: Cloudlet #241 return received
+4884.210000000001: MET_Broker: The number of finished Cloudlets is:244
+4915.010000000001: MET_Broker: Cloudlet #245 return received
+4915.010000000001: MET_Broker: The number of finished Cloudlets is:245
+4924.210000000001: MET_Broker: Cloudlet #244 return received
+4924.210000000001: MET_Broker: The number of finished Cloudlets is:246
+4934.610000000001: MET_Broker: Cloudlet #246 return received
+4934.610000000001: MET_Broker: The number of finished Cloudlets is:247
+4942.210000000001: MET_Broker: Cloudlet #247 return received
+4942.210000000001: MET_Broker: The number of finished Cloudlets is:248
+4967.810000000001: MET_Broker: Cloudlet #248 return received
+4967.810000000001: MET_Broker: The number of finished Cloudlets is:249
+4983.810000000001: MET_Broker: Cloudlet #250 return received
+4983.810000000001: MET_Broker: The number of finished Cloudlets is:250
+4985.010000000001: MET_Broker: Cloudlet #249 return received
+4985.010000000001: MET_Broker: The number of finished Cloudlets is:251
+5022.6100000000015: MET_Broker: Cloudlet #251 return received
+5022.6100000000015: MET_Broker: The number of finished Cloudlets is:252
+5034.210000000002: MET_Broker: Cloudlet #252 return received
+5034.210000000002: MET_Broker: The number of finished Cloudlets is:253
+5064.6100000000015: MET_Broker: Cloudlet #253 return received
+5064.6100000000015: MET_Broker: The number of finished Cloudlets is:254
+5066.6100000000015: MET_Broker: Cloudlet #254 return received
+5066.6100000000015: MET_Broker: The number of finished Cloudlets is:255
+5085.410000000002: MET_Broker: Cloudlet #256 return received
+5085.410000000002: MET_Broker: The number of finished Cloudlets is:256
+5105.810000000001: MET_Broker: Cloudlet #255 return received
+5105.810000000001: MET_Broker: The number of finished Cloudlets is:257
+5107.410000000002: MET_Broker: Cloudlet #257 return received
+5107.410000000002: MET_Broker: The number of finished Cloudlets is:258
+5111.810000000001: MET_Broker: Cloudlet #258 return received
+5111.810000000001: MET_Broker: The number of finished Cloudlets is:259
+5467.410000000002: MET_Broker: Cloudlet #259 return received
+5467.410000000002: MET_Broker: The number of finished Cloudlets is:260
+5471.810000000001: MET_Broker: Cloudlet #260 return received
+5471.810000000001: MET_Broker: The number of finished Cloudlets is:261
+5489.410000000002: MET_Broker: Cloudlet #261 return received
+5489.410000000002: MET_Broker: The number of finished Cloudlets is:262
+5525.010000000002: MET_Broker: Cloudlet #263 return received
+5525.010000000002: MET_Broker: The number of finished Cloudlets is:263
+5525.810000000002: MET_Broker: Cloudlet #262 return received
+5525.810000000002: MET_Broker: The number of finished Cloudlets is:264
+5562.210000000002: MET_Broker: Cloudlet #265 return received
+5562.210000000002: MET_Broker: The number of finished Cloudlets is:265
+5593.010000000002: MET_Broker: Cloudlet #266 return received
+5593.010000000002: MET_Broker: The number of finished Cloudlets is:266
+5611.010000000002: MET_Broker: Cloudlet #267 return received
+5611.010000000002: MET_Broker: The number of finished Cloudlets is:267
+5645.810000000002: MET_Broker: Cloudlet #268 return received
+5645.810000000002: MET_Broker: The number of finished Cloudlets is:268
+5683.010000000002: MET_Broker: Cloudlet #269 return received
+5683.010000000002: MET_Broker: The number of finished Cloudlets is:269
+5730.610000000002: MET_Broker: Cloudlet #270 return received
+5730.610000000002: MET_Broker: The number of finished Cloudlets is:270
+5735.010000000002: MET_Broker: Cloudlet #264 return received
+5735.010000000002: MET_Broker: The number of finished Cloudlets is:271
+5780.610000000002: MET_Broker: Cloudlet #271 return received
+5780.610000000002: MET_Broker: The number of finished Cloudlets is:272
+5782.610000000002: MET_Broker: Cloudlet #272 return received
+5782.610000000002: MET_Broker: The number of finished Cloudlets is:273
+5814.210000000003: MET_Broker: Cloudlet #274 return received
+5814.210000000003: MET_Broker: The number of finished Cloudlets is:274
+5826.610000000002: MET_Broker: Cloudlet #273 return received
+5826.610000000002: MET_Broker: The number of finished Cloudlets is:275
+5841.010000000002: MET_Broker: Cloudlet #275 return received
+5841.010000000002: MET_Broker: The number of finished Cloudlets is:276
+5859.010000000002: MET_Broker: Cloudlet #277 return received
+5859.010000000002: MET_Broker: The number of finished Cloudlets is:277
+5876.610000000002: MET_Broker: Cloudlet #276 return received
+5876.610000000002: MET_Broker: The number of finished Cloudlets is:278
+5896.210000000003: MET_Broker: Cloudlet #278 return received
+5896.210000000003: MET_Broker: The number of finished Cloudlets is:279
+5901.010000000003: MET_Broker: Cloudlet #279 return received
+5901.010000000003: MET_Broker: The number of finished Cloudlets is:280
+5929.410000000003: MET_Broker: Cloudlet #280 return received
+5929.410000000003: MET_Broker: The number of finished Cloudlets is:281
+5952.610000000002: MET_Broker: Cloudlet #281 return received
+5952.610000000002: MET_Broker: The number of finished Cloudlets is:282
+5981.010000000002: MET_Broker: Cloudlet #282 return received
+5981.010000000002: MET_Broker: The number of finished Cloudlets is:283
+5993.010000000002: MET_Broker: Cloudlet #283 return received
+5993.010000000002: MET_Broker: The number of finished Cloudlets is:284
+6009.010000000002: MET_Broker: Cloudlet #285 return received
+6009.010000000002: MET_Broker: The number of finished Cloudlets is:285
+6015.010000000002: MET_Broker: Cloudlet #284 return received
+6015.010000000002: MET_Broker: The number of finished Cloudlets is:286
+6035.010000000002: MET_Broker: Cloudlet #286 return received
+6035.010000000002: MET_Broker: The number of finished Cloudlets is:287
+6046.610000000002: MET_Broker: Cloudlet #287 return received
+6046.610000000002: MET_Broker: The number of finished Cloudlets is:288
+6083.410000000003: MET_Broker: Cloudlet #288 return received
+6083.410000000003: MET_Broker: The number of finished Cloudlets is:289
+6095.810000000002: MET_Broker: Cloudlet #289 return received
+6095.810000000002: MET_Broker: The number of finished Cloudlets is:290
+6132.610000000002: MET_Broker: Cloudlet #290 return received
+6132.610000000002: MET_Broker: The number of finished Cloudlets is:291
+6141.010000000002: MET_Broker: Cloudlet #291 return received
+6141.010000000002: MET_Broker: The number of finished Cloudlets is:292
+6161.010000000002: MET_Broker: Cloudlet #292 return received
+6161.010000000002: MET_Broker: The number of finished Cloudlets is:293
+6189.410000000002: MET_Broker: Cloudlet #293 return received
+6189.410000000002: MET_Broker: The number of finished Cloudlets is:294
+6207.810000000001: MET_Broker: Cloudlet #294 return received
+6207.810000000001: MET_Broker: The number of finished Cloudlets is:295
+6226.6100000000015: MET_Broker: Cloudlet #295 return received
+6226.6100000000015: MET_Broker: The number of finished Cloudlets is:296
+6237.810000000001: MET_Broker: Cloudlet #296 return received
+6237.810000000001: MET_Broker: The number of finished Cloudlets is:297
+6286.6100000000015: MET_Broker: Cloudlet #297 return received
+6286.6100000000015: MET_Broker: The number of finished Cloudlets is:298
+6322.210000000002: MET_Broker: Cloudlet #299 return received
+6322.210000000002: MET_Broker: The number of finished Cloudlets is:299
+6359.410000000002: MET_Broker: Cloudlet #300 return received
+6359.410000000002: MET_Broker: The number of finished Cloudlets is:300
+6388.6100000000015: MET_Broker: Cloudlet #301 return received
+6388.6100000000015: MET_Broker: The number of finished Cloudlets is:301
+6406.6100000000015: MET_Broker: Cloudlet #302 return received
+6406.6100000000015: MET_Broker: The number of finished Cloudlets is:302
+6436.6100000000015: MET_Broker: Cloudlet #303 return received
+6436.6100000000015: MET_Broker: The number of finished Cloudlets is:303
+6496.6100000000015: MET_Broker: Cloudlet #304 return received
+6496.6100000000015: MET_Broker: The number of finished Cloudlets is:304
+6522.810000000001: MET_Broker: Cloudlet #298 return received
+6522.810000000001: MET_Broker: The number of finished Cloudlets is:305
+6548.210000000001: MET_Broker: Cloudlet #305 return received
+6548.210000000001: MET_Broker: The number of finished Cloudlets is:306
+6573.610000000001: MET_Broker: Cloudlet #306 return received
+6573.610000000001: MET_Broker: The number of finished Cloudlets is:307
+6598.210000000001: MET_Broker: Cloudlet #307 return received
+6598.210000000001: MET_Broker: The number of finished Cloudlets is:308
+6609.210000000001: MET_Broker: Cloudlet #309 return received
+6609.210000000001: MET_Broker: The number of finished Cloudlets is:309
+6621.210000000001: MET_Broker: Cloudlet #308 return received
+6621.210000000001: MET_Broker: The number of finished Cloudlets is:310
+6651.210000000001: MET_Broker: Cloudlet #310 return received
+6651.210000000001: MET_Broker: The number of finished Cloudlets is:311
+6660.810000000001: MET_Broker: Cloudlet #311 return received
+6660.810000000001: MET_Broker: The number of finished Cloudlets is:312
+6696.410000000002: MET_Broker: Cloudlet #313 return received
+6696.410000000002: MET_Broker: The number of finished Cloudlets is:313
+6748.010000000002: MET_Broker: Cloudlet #314 return received
+6748.010000000002: MET_Broker: The number of finished Cloudlets is:314
+6786.010000000002: MET_Broker: Cloudlet #315 return received
+6786.010000000002: MET_Broker: The number of finished Cloudlets is:315
+6786.210000000002: MET_Broker: Cloudlet #312 return received
+6786.210000000002: MET_Broker: The number of finished Cloudlets is:316
+6816.810000000002: MET_Broker: Cloudlet #316 return received
+6816.810000000002: MET_Broker: The number of finished Cloudlets is:317
+6831.410000000003: MET_Broker: Cloudlet #317 return received
+6831.410000000003: MET_Broker: The number of finished Cloudlets is:318
+6842.810000000002: MET_Broker: Cloudlet #318 return received
+6842.810000000002: MET_Broker: The number of finished Cloudlets is:319
+6852.610000000002: MET_Broker: Cloudlet #319 return received
+6852.610000000002: MET_Broker: The number of finished Cloudlets is:320
+6889.010000000002: MET_Broker: Cloudlet #321 return received
+6889.010000000002: MET_Broker: The number of finished Cloudlets is:321
+6932.610000000002: MET_Broker: Cloudlet #322 return received
+6932.610000000002: MET_Broker: The number of finished Cloudlets is:322
+6962.610000000002: MET_Broker: Cloudlet #323 return received
+6962.610000000002: MET_Broker: The number of finished Cloudlets is:323
+6977.810000000002: MET_Broker: Cloudlet #320 return received
+6977.810000000002: MET_Broker: The number of finished Cloudlets is:324
+6995.810000000002: MET_Broker: Cloudlet #325 return received
+6995.810000000002: MET_Broker: The number of finished Cloudlets is:325
+7009.410000000003: MET_Broker: Cloudlet #324 return received
+7009.410000000003: MET_Broker: The number of finished Cloudlets is:326
+7028.210000000003: MET_Broker: Cloudlet #326 return received
+7028.210000000003: MET_Broker: The number of finished Cloudlets is:327
+7031.410000000003: MET_Broker: Cloudlet #327 return received
+7031.410000000003: MET_Broker: The number of finished Cloudlets is:328
+7050.210000000003: MET_Broker: Cloudlet #328 return received
+7050.210000000003: MET_Broker: The number of finished Cloudlets is:329
+7063.010000000003: MET_Broker: Cloudlet #329 return received
+7063.010000000003: MET_Broker: The number of finished Cloudlets is:330
+7066.210000000003: MET_Broker: Cloudlet #330 return received
+7066.210000000003: MET_Broker: The number of finished Cloudlets is:331
+7087.410000000003: MET_Broker: Cloudlet #331 return received
+7087.410000000003: MET_Broker: The number of finished Cloudlets is:332
+7092.210000000003: MET_Broker: Cloudlet #332 return received
+7092.210000000003: MET_Broker: The number of finished Cloudlets is:333
+7113.410000000003: MET_Broker: Cloudlet #334 return received
+7113.410000000003: MET_Broker: The number of finished Cloudlets is:334
+7131.410000000003: MET_Broker: Cloudlet #335 return received
+7131.410000000003: MET_Broker: The number of finished Cloudlets is:335
+7178.210000000003: MET_Broker: Cloudlet #336 return received
+7178.210000000003: MET_Broker: The number of finished Cloudlets is:336
+7198.610000000002: MET_Broker: Cloudlet #337 return received
+7198.610000000002: MET_Broker: The number of finished Cloudlets is:337
+7219.810000000002: MET_Broker: Cloudlet #338 return received
+7219.810000000002: MET_Broker: The number of finished Cloudlets is:338
+7257.810000000002: MET_Broker: Cloudlet #339 return received
+7257.810000000002: MET_Broker: The number of finished Cloudlets is:339
+7296.610000000002: MET_Broker: Cloudlet #340 return received
+7296.610000000002: MET_Broker: The number of finished Cloudlets is:340
+7297.410000000003: MET_Broker: Cloudlet #333 return received
+7297.410000000003: MET_Broker: The number of finished Cloudlets is:341
+7317.810000000002: MET_Broker: Cloudlet #342 return received
+7317.810000000002: MET_Broker: The number of finished Cloudlets is:342
+7333.010000000002: MET_Broker: Cloudlet #341 return received
+7333.010000000002: MET_Broker: The number of finished Cloudlets is:343
+7361.410000000002: MET_Broker: Cloudlet #343 return received
+7361.410000000002: MET_Broker: The number of finished Cloudlets is:344
+7410.6100000000015: MET_Broker: Cloudlet #345 return received
+7410.6100000000015: MET_Broker: The number of finished Cloudlets is:345
+7455.810000000001: MET_Broker: Cloudlet #346 return received
+7455.810000000001: MET_Broker: The number of finished Cloudlets is:346
+7505.810000000001: MET_Broker: Cloudlet #347 return received
+7505.810000000001: MET_Broker: The number of finished Cloudlets is:347
+7543.010000000001: MET_Broker: Cloudlet #344 return received
+7543.010000000001: MET_Broker: The number of finished Cloudlets is:348
+7589.010000000001: MET_Broker: Cloudlet #349 return received
+7589.010000000001: MET_Broker: The number of finished Cloudlets is:349
+7612.6100000000015: MET_Broker: Cloudlet #350 return received
+7612.6100000000015: MET_Broker: The number of finished Cloudlets is:350
+7640.810000000001: MET_Broker: Cloudlet #348 return received
+7640.810000000001: MET_Broker: The number of finished Cloudlets is:351
+7660.410000000002: MET_Broker: Cloudlet #352 return received
+7660.410000000002: MET_Broker: The number of finished Cloudlets is:352
+7672.6100000000015: MET_Broker: Cloudlet #351 return received
+7672.6100000000015: MET_Broker: The number of finished Cloudlets is:353
+7687.210000000002: MET_Broker: Cloudlet #353 return received
+7687.210000000002: MET_Broker: The number of finished Cloudlets is:354
+7714.010000000002: MET_Broker: Cloudlet #355 return received
+7714.010000000002: MET_Broker: The number of finished Cloudlets is:355
+7720.210000000002: MET_Broker: Cloudlet #354 return received
+7720.210000000002: MET_Broker: The number of finished Cloudlets is:356
+7760.6100000000015: MET_Broker: Cloudlet #357 return received
+7760.6100000000015: MET_Broker: The number of finished Cloudlets is:357
+7814.6100000000015: MET_Broker: Cloudlet #358 return received
+7814.6100000000015: MET_Broker: The number of finished Cloudlets is:358
+7863.810000000001: MET_Broker: Cloudlet #359 return received
+7863.810000000001: MET_Broker: The number of finished Cloudlets is:359
+7899.410000000002: MET_Broker: Cloudlet #360 return received
+7899.410000000002: MET_Broker: The number of finished Cloudlets is:360
+7918.210000000002: MET_Broker: Cloudlet #361 return received
+7918.210000000002: MET_Broker: The number of finished Cloudlets is:361
+7924.010000000002: MET_Broker: Cloudlet #356 return received
+7924.010000000002: MET_Broker: The number of finished Cloudlets is:362
+7946.010000000002: MET_Broker: Cloudlet #363 return received
+7946.010000000002: MET_Broker: The number of finished Cloudlets is:363
+7949.010000000002: MET_Broker: Cloudlet #362 return received
+7949.010000000002: MET_Broker: The number of finished Cloudlets is:364
+7972.010000000002: MET_Broker: Cloudlet #364 return received
+7972.010000000002: MET_Broker: The number of finished Cloudlets is:365
+7990.010000000002: MET_Broker: Cloudlet #366 return received
+7990.010000000002: MET_Broker: The number of finished Cloudlets is:366
+7991.810000000002: MET_Broker: Cloudlet #365 return received
+7991.810000000002: MET_Broker: The number of finished Cloudlets is:367
+8008.810000000002: MET_Broker: Cloudlet #367 return received
+8008.810000000002: MET_Broker: The number of finished Cloudlets is:368
+8041.010000000002: MET_Broker: Cloudlet #368 return received
+8041.010000000002: MET_Broker: The number of finished Cloudlets is:369
+8095.010000000002: MET_Broker: Cloudlet #370 return received
+8095.010000000002: MET_Broker: The number of finished Cloudlets is:370
+8121.810000000002: MET_Broker: Cloudlet #371 return received
+8121.810000000002: MET_Broker: The number of finished Cloudlets is:371
+8141.410000000003: MET_Broker: Cloudlet #372 return received
+8141.410000000003: MET_Broker: The number of finished Cloudlets is:372
+8181.010000000003: MET_Broker: Cloudlet #373 return received
+8181.010000000003: MET_Broker: The number of finished Cloudlets is:373
+8209.410000000003: MET_Broker: Cloudlet #374 return received
+8209.410000000003: MET_Broker: The number of finished Cloudlets is:374
+8233.010000000004: MET_Broker: Cloudlet #375 return received
+8233.010000000004: MET_Broker: The number of finished Cloudlets is:375
+8252.610000000004: MET_Broker: Cloudlet #376 return received
+8252.610000000004: MET_Broker: The number of finished Cloudlets is:376
+8263.610000000004: MET_Broker: Cloudlet #377 return received
+8263.610000000004: MET_Broker: The number of finished Cloudlets is:377
+8312.010000000004: MET_Broker: Cloudlet #378 return received
+8312.010000000004: MET_Broker: The number of finished Cloudlets is:378
+8342.810000000003: MET_Broker: Cloudlet #379 return received
+8342.810000000003: MET_Broker: The number of finished Cloudlets is:379
+8368.810000000003: MET_Broker: Cloudlet #369 return received
+8368.810000000003: MET_Broker: The number of finished Cloudlets is:380
+8387.210000000003: MET_Broker: Cloudlet #380 return received
+8387.210000000003: MET_Broker: The number of finished Cloudlets is:381
+8405.210000000003: MET_Broker: Cloudlet #381 return received
+8405.210000000003: MET_Broker: The number of finished Cloudlets is:382
+8411.210000000003: MET_Broker: Cloudlet #383 return received
+8411.210000000003: MET_Broker: The number of finished Cloudlets is:383
+8435.610000000002: MET_Broker: Cloudlet #382 return received
+8435.610000000002: MET_Broker: The number of finished Cloudlets is:384
+8469.610000000002: MET_Broker: Cloudlet #385 return received
+8469.610000000002: MET_Broker: The number of finished Cloudlets is:385
+8504.410000000002: MET_Broker: Cloudlet #386 return received
+8504.410000000002: MET_Broker: The number of finished Cloudlets is:386
+8553.610000000002: MET_Broker: Cloudlet #387 return received
+8553.610000000002: MET_Broker: The number of finished Cloudlets is:387
+8582.810000000003: MET_Broker: Cloudlet #388 return received
+8582.810000000003: MET_Broker: The number of finished Cloudlets is:388
+8621.210000000003: MET_Broker: Cloudlet #384 return received
+8621.210000000003: MET_Broker: The number of finished Cloudlets is:389
+8641.610000000002: MET_Broker: Cloudlet #390 return received
+8641.610000000002: MET_Broker: The number of finished Cloudlets is:390
+8670.010000000002: MET_Broker: Cloudlet #391 return received
+8670.010000000002: MET_Broker: The number of finished Cloudlets is:391
+8715.210000000003: MET_Broker: Cloudlet #392 return received
+8715.210000000003: MET_Broker: The number of finished Cloudlets is:392
+8753.210000000003: MET_Broker: Cloudlet #393 return received
+8753.210000000003: MET_Broker: The number of finished Cloudlets is:393
+8789.610000000002: MET_Broker: Cloudlet #394 return received
+8789.610000000002: MET_Broker: The number of finished Cloudlets is:394
+8792.810000000003: MET_Broker: Cloudlet #389 return received
+8792.810000000003: MET_Broker: The number of finished Cloudlets is:395
+8832.410000000003: MET_Broker: Cloudlet #395 return received
+8832.410000000003: MET_Broker: The number of finished Cloudlets is:396
+8842.810000000003: MET_Broker: Cloudlet #396 return received
+8842.810000000003: MET_Broker: The number of finished Cloudlets is:397
+8864.810000000003: MET_Broker: Cloudlet #398 return received
+8864.810000000003: MET_Broker: The number of finished Cloudlets is:398
+8886.410000000003: MET_Broker: Cloudlet #397 return received
+8886.410000000003: MET_Broker: The number of finished Cloudlets is:399
+8902.010000000004: MET_Broker: Cloudlet #399 return received
+8902.010000000004: MET_Broker: The number of finished Cloudlets is:400
+8908.410000000003: MET_Broker: Cloudlet #400 return received
+8908.410000000003: MET_Broker: The number of finished Cloudlets is:401
+8928.010000000004: MET_Broker: Cloudlet #401 return received
+8928.010000000004: MET_Broker: The number of finished Cloudlets is:402
+8928.010000000004: MET_Broker: Cloudlet #402 return received
+8928.010000000004: MET_Broker: The number of finished Cloudlets is:403
+9213.010000000004: MET_Broker: Cloudlet #403 return received
+9213.010000000004: MET_Broker: The number of finished Cloudlets is:404
+9238.210000000005: MET_Broker: Cloudlet #404 return received
+9238.210000000005: MET_Broker: The number of finished Cloudlets is:405
+9598.210000000005: MET_Broker: Cloudlet #405 return received
+9598.210000000005: MET_Broker: The number of finished Cloudlets is:406
+9637.810000000005: MET_Broker: Cloudlet #406 return received
+9637.810000000005: MET_Broker: The number of finished Cloudlets is:407
+9679.010000000006: MET_Broker: Cloudlet #407 return received
+9679.010000000006: MET_Broker: The number of finished Cloudlets is:408
+9729.010000000006: MET_Broker: Cloudlet #408 return received
+9729.010000000006: MET_Broker: The number of finished Cloudlets is:409
+9764.610000000006: MET_Broker: Cloudlet #409 return received
+9764.610000000006: MET_Broker: The number of finished Cloudlets is:410
+9785.010000000006: MET_Broker: Cloudlet #410 return received
+9785.010000000006: MET_Broker: The number of finished Cloudlets is:411
+9835.010000000006: MET_Broker: Cloudlet #411 return received
+9835.010000000006: MET_Broker: The number of finished Cloudlets is:412
+9865.010000000006: MET_Broker: Cloudlet #412 return received
+9865.010000000006: MET_Broker: The number of finished Cloudlets is:413
+9906.210000000006: MET_Broker: Cloudlet #413 return received
+9906.210000000006: MET_Broker: The number of finished Cloudlets is:414
+9956.210000000006: MET_Broker: Cloudlet #414 return received
+9956.210000000006: MET_Broker: The number of finished Cloudlets is:415
+9972.210000000006: MET_Broker: Cloudlet #415 return received
+9972.210000000006: MET_Broker: The number of finished Cloudlets is:416
+10014.210000000006: MET_Broker: Cloudlet #416 return received
+10014.210000000006: MET_Broker: The number of finished Cloudlets is:417
+10040.210000000006: MET_Broker: Cloudlet #417 return received
+10040.210000000006: MET_Broker: The number of finished Cloudlets is:418
+10059.810000000007: MET_Broker: Cloudlet #418 return received
+10059.810000000007: MET_Broker: The number of finished Cloudlets is:419
+10113.810000000007: MET_Broker: Cloudlet #419 return received
+10113.810000000007: MET_Broker: The number of finished Cloudlets is:420
+10124.810000000007: MET_Broker: Cloudlet #420 return received
+10124.810000000007: MET_Broker: The number of finished Cloudlets is:421
+10170.810000000007: MET_Broker: Cloudlet #421 return received
+10170.810000000007: MET_Broker: The number of finished Cloudlets is:422
+10220.810000000007: MET_Broker: Cloudlet #422 return received
+10220.810000000007: MET_Broker: The number of finished Cloudlets is:423
+10240.410000000007: MET_Broker: Cloudlet #423 return received
+10240.410000000007: MET_Broker: The number of finished Cloudlets is:424
+10275.210000000006: MET_Broker: Cloudlet #424 return received
+10275.210000000006: MET_Broker: The number of finished Cloudlets is:425
+10286.210000000006: MET_Broker: Cloudlet #425 return received
+10286.210000000006: MET_Broker: The number of finished Cloudlets is:426
+10317.010000000006: MET_Broker: Cloudlet #426 return received
+10317.010000000006: MET_Broker: The number of finished Cloudlets is:427
+10343.810000000005: MET_Broker: Cloudlet #427 return received
+10343.810000000005: MET_Broker: The number of finished Cloudlets is:428
+10387.410000000005: MET_Broker: Cloudlet #428 return received
+10387.410000000005: MET_Broker: The number of finished Cloudlets is:429
+10415.810000000005: MET_Broker: Cloudlet #429 return received
+10415.810000000005: MET_Broker: The number of finished Cloudlets is:430
+10439.410000000005: MET_Broker: Cloudlet #430 return received
+10439.410000000005: MET_Broker: The number of finished Cloudlets is:431
+10478.210000000005: MET_Broker: Cloudlet #431 return received
+10478.210000000005: MET_Broker: The number of finished Cloudlets is:432
+10514.610000000004: MET_Broker: Cloudlet #432 return received
+10514.610000000004: MET_Broker: The number of finished Cloudlets is:433
+10558.210000000005: MET_Broker: Cloudlet #433 return received
+10558.210000000005: MET_Broker: The number of finished Cloudlets is:434
+10606.610000000004: MET_Broker: Cloudlet #434 return received
+10606.610000000004: MET_Broker: The number of finished Cloudlets is:435
+10655.810000000005: MET_Broker: Cloudlet #435 return received
+10655.810000000005: MET_Broker: The number of finished Cloudlets is:436
+10700.210000000005: MET_Broker: Cloudlet #436 return received
+10700.210000000005: MET_Broker: The number of finished Cloudlets is:437
+10727.010000000004: MET_Broker: Cloudlet #437 return received
+10727.010000000004: MET_Broker: The number of finished Cloudlets is:438
+11012.010000000004: MET_Broker: Cloudlet #438 return received
+11012.010000000004: MET_Broker: The number of finished Cloudlets is:439
+11062.810000000003: MET_Broker: Cloudlet #439 return received
+11062.810000000003: MET_Broker: The number of finished Cloudlets is:440
+11103.210000000003: MET_Broker: Cloudlet #440 return received
+11103.210000000003: MET_Broker: The number of finished Cloudlets is:441
+11146.010000000002: MET_Broker: Cloudlet #441 return received
+11146.010000000002: MET_Broker: The number of finished Cloudlets is:442
+11356.010000000002: MET_Broker: Cloudlet #442 return received
+11356.010000000002: MET_Broker: The number of finished Cloudlets is:443
+11396.410000000002: MET_Broker: Cloudlet #443 return received
+11396.410000000002: MET_Broker: The number of finished Cloudlets is:444
+11446.410000000002: MET_Broker: Cloudlet #444 return received
+11446.410000000002: MET_Broker: The number of finished Cloudlets is:445
+11466.810000000001: MET_Broker: Cloudlet #445 return received
+11466.810000000001: MET_Broker: The number of finished Cloudlets is:446
+11517.61: MET_Broker: Cloudlet #446 return received
+11517.61: MET_Broker: The number of finished Cloudlets is:447
+11537.210000000001: MET_Broker: Cloudlet #447 return received
+11537.210000000001: MET_Broker: The number of finished Cloudlets is:448
+11897.210000000001: MET_Broker: Cloudlet #448 return received
+11897.210000000001: MET_Broker: The number of finished Cloudlets is:449
+11948.810000000001: MET_Broker: Cloudlet #449 return received
+11948.810000000001: MET_Broker: The number of finished Cloudlets is:450
+11969.210000000001: MET_Broker: Cloudlet #450 return received
+11969.210000000001: MET_Broker: The number of finished Cloudlets is:451
+11975.210000000001: MET_Broker: Cloudlet #451 return received
+11975.210000000001: MET_Broker: The number of finished Cloudlets is:452
+12015.61: MET_Broker: Cloudlet #452 return received
+12015.61: MET_Broker: The number of finished Cloudlets is:453
+12053.61: MET_Broker: Cloudlet #453 return received
+12053.61: MET_Broker: The number of finished Cloudlets is:454
+12085.210000000001: MET_Broker: Cloudlet #454 return received
+12085.210000000001: MET_Broker: The number of finished Cloudlets is:455
+12101.210000000001: MET_Broker: Cloudlet #455 return received
+12101.210000000001: MET_Broker: The number of finished Cloudlets is:456
+12127.210000000001: MET_Broker: Cloudlet #456 return received
+12127.210000000001: MET_Broker: The number of finished Cloudlets is:457
+12158.810000000001: MET_Broker: Cloudlet #457 return received
+12158.810000000001: MET_Broker: The number of finished Cloudlets is:458
+12178.410000000002: MET_Broker: Cloudlet #458 return received
+12178.410000000002: MET_Broker: The number of finished Cloudlets is:459
+12219.610000000002: MET_Broker: Cloudlet #459 return received
+12219.610000000002: MET_Broker: The number of finished Cloudlets is:460
+12252.010000000002: MET_Broker: Cloudlet #460 return received
+12252.010000000002: MET_Broker: The number of finished Cloudlets is:461
+12296.410000000002: MET_Broker: Cloudlet #461 return received
+12296.410000000002: MET_Broker: The number of finished Cloudlets is:462
+12347.210000000001: MET_Broker: Cloudlet #462 return received
+12347.210000000001: MET_Broker: The number of finished Cloudlets is:463
+12398.810000000001: MET_Broker: Cloudlet #463 return received
+12398.810000000001: MET_Broker: The number of finished Cloudlets is:464
+12433.61: MET_Broker: Cloudlet #464 return received
+12433.61: MET_Broker: The number of finished Cloudlets is:465
+12483.61: MET_Broker: Cloudlet #465 return received
+12483.61: MET_Broker: The number of finished Cloudlets is:466
+12522.41: MET_Broker: Cloudlet #466 return received
+12522.41: MET_Broker: The number of finished Cloudlets is:467
+12556.41: MET_Broker: Cloudlet #467 return received
+12556.41: MET_Broker: The number of finished Cloudlets is:468
+12602.41: MET_Broker: Cloudlet #468 return received
+12602.41: MET_Broker: The number of finished Cloudlets is:469
+12640.41: MET_Broker: Cloudlet #469 return received
+12640.41: MET_Broker: The number of finished Cloudlets is:470
+12667.21: MET_Broker: Cloudlet #470 return received
+12667.21: MET_Broker: The number of finished Cloudlets is:471
+12702.009999999998: MET_Broker: Cloudlet #471 return received
+12702.009999999998: MET_Broker: The number of finished Cloudlets is:472
+12721.609999999999: MET_Broker: Cloudlet #472 return received
+12721.609999999999: MET_Broker: The number of finished Cloudlets is:473
+12742.009999999998: MET_Broker: Cloudlet #473 return received
+12742.009999999998: MET_Broker: The number of finished Cloudlets is:474
+12753.009999999998: MET_Broker: Cloudlet #474 return received
+12753.009999999998: MET_Broker: The number of finished Cloudlets is:475
+12794.21: MET_Broker: Cloudlet #475 return received
+12794.21: MET_Broker: The number of finished Cloudlets is:476
+12841.009999999998: MET_Broker: Cloudlet #476 return received
+12841.009999999998: MET_Broker: The number of finished Cloudlets is:477
+12883.009999999998: MET_Broker: Cloudlet #477 return received
+12883.009999999998: MET_Broker: The number of finished Cloudlets is:478
+12917.009999999998: MET_Broker: Cloudlet #478 return received
+12917.009999999998: MET_Broker: The number of finished Cloudlets is:479
+12954.21: MET_Broker: Cloudlet #479 return received
+12954.21: MET_Broker: The number of finished Cloudlets is:480
+13314.21: MET_Broker: Cloudlet #480 return received
+13314.21: MET_Broker: The number of finished Cloudlets is:481
+13349.81: MET_Broker: Cloudlet #481 return received
+13349.81: MET_Broker: The number of finished Cloudlets is:482
+13392.609999999999: MET_Broker: Cloudlet #482 return received
+13392.609999999999: MET_Broker: The number of finished Cloudlets is:483
+13416.21: MET_Broker: Cloudlet #483 return received
+13416.21: MET_Broker: The number of finished Cloudlets is:484
+13451.81: MET_Broker: Cloudlet #484 return received
+13451.81: MET_Broker: The number of finished Cloudlets is:485
+13484.21: MET_Broker: Cloudlet #485 return received
+13484.21: MET_Broker: The number of finished Cloudlets is:486
+13538.21: MET_Broker: Cloudlet #486 return received
+13538.21: MET_Broker: The number of finished Cloudlets is:487
+13588.21: MET_Broker: Cloudlet #487 return received
+13588.21: MET_Broker: The number of finished Cloudlets is:488
+13723.21: MET_Broker: Cloudlet #488 return received
+13723.21: MET_Broker: The number of finished Cloudlets is:489
+13743.609999999999: MET_Broker: Cloudlet #489 return received
+13743.609999999999: MET_Broker: The number of finished Cloudlets is:490
+13762.409999999998: MET_Broker: Cloudlet #490 return received
+13762.409999999998: MET_Broker: The number of finished Cloudlets is:491
+13810.809999999998: MET_Broker: Cloudlet #491 return received
+13810.809999999998: MET_Broker: The number of finished Cloudlets is:492
+13870.809999999998: MET_Broker: Cloudlet #492 return received
+13870.809999999998: MET_Broker: The number of finished Cloudlets is:493
+13895.209999999997: MET_Broker: Cloudlet #493 return received
+13895.209999999997: MET_Broker: The number of finished Cloudlets is:494
+13917.209999999997: MET_Broker: Cloudlet #494 return received
+13917.209999999997: MET_Broker: The number of finished Cloudlets is:495
+13937.609999999997: MET_Broker: Cloudlet #495 return received
+13937.609999999997: MET_Broker: The number of finished Cloudlets is:496
+13978.809999999998: MET_Broker: Cloudlet #496 return received
+13978.809999999998: MET_Broker: The number of finished Cloudlets is:497
+14016.009999999998: MET_Broker: Cloudlet #497 return received
+14016.009999999998: MET_Broker: The number of finished Cloudlets is:498
+14040.409999999998: MET_Broker: Cloudlet #498 return received
+14040.409999999998: MET_Broker: The number of finished Cloudlets is:499
+14072.009999999998: MET_Broker: Cloudlet #499 return received
+14072.009999999998: MET_Broker: The number of finished Cloudlets is:500
+14091.609999999999: MET_Broker: Cloudlet #500 return received
+14091.609999999999: MET_Broker: The number of finished Cloudlets is:501
+14116.009999999998: MET_Broker: Cloudlet #501 return received
+14116.009999999998: MET_Broker: The number of finished Cloudlets is:502
+14401.009999999998: MET_Broker: Cloudlet #502 return received
+14401.009999999998: MET_Broker: The number of finished Cloudlets is:503
+14431.009999999998: MET_Broker: Cloudlet #503 return received
+14431.009999999998: MET_Broker: The number of finished Cloudlets is:504
+14456.21: MET_Broker: Cloudlet #504 return received
+14456.21: MET_Broker: The number of finished Cloudlets is:505
+14506.21: MET_Broker: Cloudlet #505 return received
+14506.21: MET_Broker: The number of finished Cloudlets is:506
+14530.609999999999: MET_Broker: Cloudlet #506 return received
+14530.609999999999: MET_Broker: The number of finished Cloudlets is:507
+14570.21: MET_Broker: Cloudlet #507 return received
+14570.21: MET_Broker: The number of finished Cloudlets is:508
+14603.41: MET_Broker: Cloudlet #508 return received
+14603.41: MET_Broker: The number of finished Cloudlets is:509
+14647.81: MET_Broker: Cloudlet #509 return received
+14647.81: MET_Broker: The number of finished Cloudlets is:510
+14666.609999999999: MET_Broker: Cloudlet #510 return received
+14666.609999999999: MET_Broker: The number of finished Cloudlets is:511
+14708.609999999999: MET_Broker: Cloudlet #511 return received
+14708.609999999999: MET_Broker: The number of finished Cloudlets is:512
+14757.009999999998: MET_Broker: Cloudlet #512 return received
+14757.009999999998: MET_Broker: The number of finished Cloudlets is:513
+14780.609999999999: MET_Broker: Cloudlet #513 return received
+14780.609999999999: MET_Broker: The number of finished Cloudlets is:514
+14818.609999999999: MET_Broker: Cloudlet #514 return received
+14818.609999999999: MET_Broker: The number of finished Cloudlets is:515
+14848.609999999999: MET_Broker: Cloudlet #515 return received
+14848.609999999999: MET_Broker: The number of finished Cloudlets is:516
+14893.81: MET_Broker: Cloudlet #516 return received
+14893.81: MET_Broker: The number of finished Cloudlets is:517
+14944.609999999999: MET_Broker: Cloudlet #517 return received
+14944.609999999999: MET_Broker: The number of finished Cloudlets is:518
+14960.609999999999: MET_Broker: Cloudlet #518 return received
+14960.609999999999: MET_Broker: The number of finished Cloudlets is:519
+15001.81: MET_Broker: Cloudlet #519 return received
+15001.81: MET_Broker: The number of finished Cloudlets is:520
+15019.81: MET_Broker: Cloudlet #520 return received
+15019.81: MET_Broker: The number of finished Cloudlets is:521
+15062.609999999999: MET_Broker: Cloudlet #521 return received
+15062.609999999999: MET_Broker: The number of finished Cloudlets is:522
+15087.81: MET_Broker: Cloudlet #522 return received
+15087.81: MET_Broker: The number of finished Cloudlets is:523
+15118.609999999999: MET_Broker: Cloudlet #523 return received
+15118.609999999999: MET_Broker: The number of finished Cloudlets is:524
+15156.609999999999: MET_Broker: Cloudlet #524 return received
+15156.609999999999: MET_Broker: The number of finished Cloudlets is:525
+15193.81: MET_Broker: Cloudlet #525 return received
+15193.81: MET_Broker: The number of finished Cloudlets is:526
+15403.81: MET_Broker: Cloudlet #526 return received
+15403.81: MET_Broker: The number of finished Cloudlets is:527
+15419.81: MET_Broker: Cloudlet #527 return received
+15419.81: MET_Broker: The number of finished Cloudlets is:528
+15457.81: MET_Broker: Cloudlet #528 return received
+15457.81: MET_Broker: The number of finished Cloudlets is:529
+15488.609999999999: MET_Broker: Cloudlet #529 return received
+15488.609999999999: MET_Broker: The number of finished Cloudlets is:530
+15518.609999999999: MET_Broker: Cloudlet #530 return received
+15518.609999999999: MET_Broker: The number of finished Cloudlets is:531
+15555.81: MET_Broker: Cloudlet #531 return received
+15555.81: MET_Broker: The number of finished Cloudlets is:532
+15601.01: MET_Broker: Cloudlet #532 return received
+15601.01: MET_Broker: The number of finished Cloudlets is:533
+15652.61: MET_Broker: Cloudlet #533 return received
+15652.61: MET_Broker: The number of finished Cloudlets is:534
+15701.01: MET_Broker: Cloudlet #534 return received
+15701.01: MET_Broker: The number of finished Cloudlets is:535
+15712.01: MET_Broker: Cloudlet #535 return received
+15712.01: MET_Broker: The number of finished Cloudlets is:536
+15751.61: MET_Broker: Cloudlet #536 return received
+15751.61: MET_Broker: The number of finished Cloudlets is:537
+15795.210000000001: MET_Broker: Cloudlet #537 return received
+15795.210000000001: MET_Broker: The number of finished Cloudlets is:538
+15825.210000000001: MET_Broker: Cloudlet #538 return received
+15825.210000000001: MET_Broker: The number of finished Cloudlets is:539
+15866.410000000002: MET_Broker: Cloudlet #539 return received
+15866.410000000002: MET_Broker: The number of finished Cloudlets is:540
+15887.610000000002: MET_Broker: Cloudlet #540 return received
+15887.610000000002: MET_Broker: The number of finished Cloudlets is:541
+15918.410000000002: MET_Broker: Cloudlet #541 return received
+15918.410000000002: MET_Broker: The number of finished Cloudlets is:542
+15966.810000000001: MET_Broker: Cloudlet #542 return received
+15966.810000000001: MET_Broker: The number of finished Cloudlets is:543
+15995.210000000001: MET_Broker: Cloudlet #543 return received
+15995.210000000001: MET_Broker: The number of finished Cloudlets is:544
+16014.01: MET_Broker: Cloudlet #544 return received
+16014.01: MET_Broker: The number of finished Cloudlets is:545
+16049.61: MET_Broker: Cloudlet #545 return received
+16049.61: MET_Broker: The number of finished Cloudlets is:546
+16085.210000000001: MET_Broker: Cloudlet #546 return received
+16085.210000000001: MET_Broker: The number of finished Cloudlets is:547
+16105.61: MET_Broker: Cloudlet #547 return received
+16105.61: MET_Broker: The number of finished Cloudlets is:548
+16136.41: MET_Broker: Cloudlet #548 return received
+16136.41: MET_Broker: The number of finished Cloudlets is:549
+16163.21: MET_Broker: Cloudlet #549 return received
+16163.21: MET_Broker: The number of finished Cloudlets is:550
+16206.009999999998: MET_Broker: Cloudlet #550 return received
+16206.009999999998: MET_Broker: The number of finished Cloudlets is:551
+16254.409999999998: MET_Broker: Cloudlet #551 return received
+16254.409999999998: MET_Broker: The number of finished Cloudlets is:552
+16284.409999999998: MET_Broker: Cloudlet #552 return received
+16284.409999999998: MET_Broker: The number of finished Cloudlets is:553
+16311.209999999997: MET_Broker: Cloudlet #553 return received
+16311.209999999997: MET_Broker: The number of finished Cloudlets is:554
+16334.809999999998: MET_Broker: Cloudlet #554 return received
+16334.809999999998: MET_Broker: The number of finished Cloudlets is:555
+16379.209999999997: MET_Broker: Cloudlet #555 return received
+16379.209999999997: MET_Broker: The number of finished Cloudlets is:556
+16417.21: MET_Broker: Cloudlet #556 return received
+16417.21: MET_Broker: The number of finished Cloudlets is:557
+16459.21: MET_Broker: Cloudlet #557 return received
+16459.21: MET_Broker: The number of finished Cloudlets is:558
+16499.61: MET_Broker: Cloudlet #558 return received
+16499.61: MET_Broker: The number of finished Cloudlets is:559
+16528.81: MET_Broker: Cloudlet #559 return received
+16528.81: MET_Broker: The number of finished Cloudlets is:560
+16578.010000000002: MET_Broker: Cloudlet #560 return received
+16578.010000000002: MET_Broker: The number of finished Cloudlets is:561
+16627.210000000003: MET_Broker: Cloudlet #561 return received
+16627.210000000003: MET_Broker: The number of finished Cloudlets is:562
+16671.610000000004: MET_Broker: Cloudlet #562 return received
+16671.610000000004: MET_Broker: The number of finished Cloudlets is:563
+16717.610000000004: MET_Broker: Cloudlet #563 return received
+16717.610000000004: MET_Broker: The number of finished Cloudlets is:564
+16755.610000000004: MET_Broker: Cloudlet #564 return received
+16755.610000000004: MET_Broker: The number of finished Cloudlets is:565
+16777.610000000004: MET_Broker: Cloudlet #565 return received
+16777.610000000004: MET_Broker: The number of finished Cloudlets is:566
+16788.610000000004: MET_Broker: Cloudlet #566 return received
+16788.610000000004: MET_Broker: The number of finished Cloudlets is:567
+16834.610000000004: MET_Broker: Cloudlet #567 return received
+16834.610000000004: MET_Broker: The number of finished Cloudlets is:568
+16868.610000000004: MET_Broker: Cloudlet #568 return received
+16868.610000000004: MET_Broker: The number of finished Cloudlets is:569
+16905.010000000006: MET_Broker: Cloudlet #569 return received
+16905.010000000006: MET_Broker: The number of finished Cloudlets is:570
+16948.610000000004: MET_Broker: Cloudlet #570 return received
+16948.610000000004: MET_Broker: The number of finished Cloudlets is:571
+16986.610000000004: MET_Broker: Cloudlet #571 return received
+16986.610000000004: MET_Broker: The number of finished Cloudlets is:572
+17016.610000000004: MET_Broker: Cloudlet #572 return received
+17016.610000000004: MET_Broker: The number of finished Cloudlets is:573
+17076.610000000004: MET_Broker: Cloudlet #573 return received
+17076.610000000004: MET_Broker: The number of finished Cloudlets is:574
+17097.810000000005: MET_Broker: Cloudlet #574 return received
+17097.810000000005: MET_Broker: The number of finished Cloudlets is:575
+17139.010000000006: MET_Broker: Cloudlet #575 return received
+17139.010000000006: MET_Broker: The number of finished Cloudlets is:576
+17274.010000000006: MET_Broker: Cloudlet #576 return received
+17274.010000000006: MET_Broker: The number of finished Cloudlets is:577
+17302.410000000007: MET_Broker: Cloudlet #577 return received
+17302.410000000007: MET_Broker: The number of finished Cloudlets is:578
+17587.410000000007: MET_Broker: Cloudlet #578 return received
+17587.410000000007: MET_Broker: The number of finished Cloudlets is:579
+17619.010000000006: MET_Broker: Cloudlet #579 return received
+17619.010000000006: MET_Broker: The number of finished Cloudlets is:580
+17625.010000000006: MET_Broker: Cloudlet #580 return received
+17625.010000000006: MET_Broker: The number of finished Cloudlets is:581
+17669.410000000007: MET_Broker: Cloudlet #581 return received
+17669.410000000007: MET_Broker: The number of finished Cloudlets is:582
+17701.81000000001: MET_Broker: Cloudlet #582 return received
+17701.81000000001: MET_Broker: The number of finished Cloudlets is:583
+17733.410000000007: MET_Broker: Cloudlet #583 return received
+17733.410000000007: MET_Broker: The number of finished Cloudlets is:584
+17774.610000000008: MET_Broker: Cloudlet #584 return received
+17774.610000000008: MET_Broker: The number of finished Cloudlets is:585
+17795.81000000001: MET_Broker: Cloudlet #585 return received
+17795.81000000001: MET_Broker: The number of finished Cloudlets is:586
+17827.410000000007: MET_Broker: Cloudlet #586 return received
+17827.410000000007: MET_Broker: The number of finished Cloudlets is:587
+17877.410000000007: MET_Broker: Cloudlet #587 return received
+17877.410000000007: MET_Broker: The number of finished Cloudlets is:588
+17904.210000000006: MET_Broker: Cloudlet #588 return received
+17904.210000000006: MET_Broker: The number of finished Cloudlets is:589
+17923.810000000005: MET_Broker: Cloudlet #589 return received
+17923.810000000005: MET_Broker: The number of finished Cloudlets is:590
+17975.410000000003: MET_Broker: Cloudlet #590 return received
+17975.410000000003: MET_Broker: The number of finished Cloudlets is:591
+18014.210000000003: MET_Broker: Cloudlet #591 return received
+18014.210000000003: MET_Broker: The number of finished Cloudlets is:592
+18053.81: MET_Broker: Cloudlet #592 return received
+18053.81: MET_Broker: The number of finished Cloudlets is:593
+18095.010000000002: MET_Broker: Cloudlet #593 return received
+18095.010000000002: MET_Broker: The number of finished Cloudlets is:594
+18146.61: MET_Broker: Cloudlet #594 return received
+18146.61: MET_Broker: The number of finished Cloudlets is:595
+18185.41: MET_Broker: Cloudlet #595 return received
+18185.41: MET_Broker: The number of finished Cloudlets is:596
+18205.81: MET_Broker: Cloudlet #596 return received
+18205.81: MET_Broker: The number of finished Cloudlets is:597
+18251.81: MET_Broker: Cloudlet #597 return received
+18251.81: MET_Broker: The number of finished Cloudlets is:598
+18257.81: MET_Broker: Cloudlet #598 return received
+18257.81: MET_Broker: The number of finished Cloudlets is:599
+18290.210000000003: MET_Broker: Cloudlet #599 return received
+18290.210000000003: MET_Broker: The number of finished Cloudlets is:600
+18336.210000000003: MET_Broker: Cloudlet #600 return received
+18336.210000000003: MET_Broker: The number of finished Cloudlets is:601
+18387.81: MET_Broker: Cloudlet #601 return received
+18387.81: MET_Broker: The number of finished Cloudlets is:602
+18430.61: MET_Broker: Cloudlet #602 return received
+18430.61: MET_Broker: The number of finished Cloudlets is:603
+18460.61: MET_Broker: Cloudlet #603 return received
+18460.61: MET_Broker: The number of finished Cloudlets is:604
+18498.61: MET_Broker: Cloudlet #604 return received
+18498.61: MET_Broker: The number of finished Cloudlets is:605
+18708.61: MET_Broker: Cloudlet #605 return received
+18708.61: MET_Broker: The number of finished Cloudlets is:606
+18768.61: MET_Broker: Cloudlet #606 return received
+18768.61: MET_Broker: The number of finished Cloudlets is:607
+18805.010000000002: MET_Broker: Cloudlet #607 return received
+18805.010000000002: MET_Broker: The number of finished Cloudlets is:608
+18854.210000000003: MET_Broker: Cloudlet #608 return received
+18854.210000000003: MET_Broker: The number of finished Cloudlets is:609
+18889.81: MET_Broker: Cloudlet #609 return received
+18889.81: MET_Broker: The number of finished Cloudlets is:610
+18928.61: MET_Broker: Cloudlet #610 return received
+18928.61: MET_Broker: The number of finished Cloudlets is:611
+18948.21: MET_Broker: Cloudlet #611 return received
+18948.21: MET_Broker: The number of finished Cloudlets is:612
+18985.41: MET_Broker: Cloudlet #612 return received
+18985.41: MET_Broker: The number of finished Cloudlets is:613
+19025.01: MET_Broker: Cloudlet #613 return received
+19025.01: MET_Broker: The number of finished Cloudlets is:614
+19076.609999999997: MET_Broker: Cloudlet #614 return received
+19076.609999999997: MET_Broker: The number of finished Cloudlets is:615
+19087.609999999997: MET_Broker: Cloudlet #615 return received
+19087.609999999997: MET_Broker: The number of finished Cloudlets is:616
+19120.809999999998: MET_Broker: Cloudlet #616 return received
+19120.809999999998: MET_Broker: The number of finished Cloudlets is:617
+19126.809999999998: MET_Broker: Cloudlet #617 return received
+19126.809999999998: MET_Broker: The number of finished Cloudlets is:618
+19170.409999999996: MET_Broker: Cloudlet #618 return received
+19170.409999999996: MET_Broker: The number of finished Cloudlets is:619
+19200.409999999996: MET_Broker: Cloudlet #619 return received
+19200.409999999996: MET_Broker: The number of finished Cloudlets is:620
+19410.409999999996: MET_Broker: Cloudlet #620 return received
+19410.409999999996: MET_Broker: The number of finished Cloudlets is:621
+19430.809999999998: MET_Broker: Cloudlet #621 return received
+19430.809999999998: MET_Broker: The number of finished Cloudlets is:622
+19436.809999999998: MET_Broker: Cloudlet #622 return received
+19436.809999999998: MET_Broker: The number of finished Cloudlets is:623
+19474.01: MET_Broker: Cloudlet #623 return received
+19474.01: MET_Broker: The number of finished Cloudlets is:624
+19524.01: MET_Broker: Cloudlet #624 return received
+19524.01: MET_Broker: The number of finished Cloudlets is:625
+19549.21: MET_Broker: Cloudlet #625 return received
+19549.21: MET_Broker: The number of finished Cloudlets is:626
+19592.809999999998: MET_Broker: Cloudlet #626 return received
+19592.809999999998: MET_Broker: The number of finished Cloudlets is:627
+19641.21: MET_Broker: Cloudlet #627 return received
+19641.21: MET_Broker: The number of finished Cloudlets is:628
+19676.809999999998: MET_Broker: Cloudlet #628 return received
+19676.809999999998: MET_Broker: The number of finished Cloudlets is:629
+19722.809999999998: MET_Broker: Cloudlet #629 return received
+19722.809999999998: MET_Broker: The number of finished Cloudlets is:630
+19752.809999999998: MET_Broker: Cloudlet #630 return received
+19752.809999999998: MET_Broker: The number of finished Cloudlets is:631
+19786.809999999998: MET_Broker: Cloudlet #631 return received
+19786.809999999998: MET_Broker: The number of finished Cloudlets is:632
+19828.809999999998: MET_Broker: Cloudlet #632 return received
+19828.809999999998: MET_Broker: The number of finished Cloudlets is:633
+19866.01: MET_Broker: Cloudlet #633 return received
+19866.01: MET_Broker: The number of finished Cloudlets is:634
+19916.809999999998: MET_Broker: Cloudlet #634 return received
+19916.809999999998: MET_Broker: The number of finished Cloudlets is:635
+19946.01: MET_Broker: Cloudlet #635 return received
+19946.01: MET_Broker: The number of finished Cloudlets is:636
+20006.01: MET_Broker: Cloudlet #636 return received
+20006.01: MET_Broker: The number of finished Cloudlets is:637
+20366.01: MET_Broker: Cloudlet #637 return received
+20366.01: MET_Broker: The number of finished Cloudlets is:638
+20576.01: MET_Broker: Cloudlet #638 return received
+20576.01: MET_Broker: The number of finished Cloudlets is:639
+20594.809999999998: MET_Broker: Cloudlet #639 return received
+20594.809999999998: MET_Broker: The number of finished Cloudlets is:640
+20620.01: MET_Broker: Cloudlet #640 return received
+20620.01: MET_Broker: The number of finished Cloudlets is:641
+20659.609999999997: MET_Broker: Cloudlet #641 return received
+20659.609999999997: MET_Broker: The number of finished Cloudlets is:642
+20706.409999999996: MET_Broker: Cloudlet #642 return received
+20706.409999999996: MET_Broker: The number of finished Cloudlets is:643
+20991.409999999996: MET_Broker: Cloudlet #643 return received
+20991.409999999996: MET_Broker: The number of finished Cloudlets is:644
+21037.409999999996: MET_Broker: Cloudlet #644 return received
+21037.409999999996: MET_Broker: The number of finished Cloudlets is:645
+21097.409999999996: MET_Broker: Cloudlet #645 return received
+21097.409999999996: MET_Broker: The number of finished Cloudlets is:646
+21117.809999999998: MET_Broker: Cloudlet #646 return received
+21117.809999999998: MET_Broker: The number of finished Cloudlets is:647
+21149.409999999996: MET_Broker: Cloudlet #647 return received
+21149.409999999996: MET_Broker: The number of finished Cloudlets is:648
+21199.409999999996: MET_Broker: Cloudlet #648 return received
+21199.409999999996: MET_Broker: The number of finished Cloudlets is:649
+21232.609999999997: MET_Broker: Cloudlet #649 return received
+21232.609999999997: MET_Broker: The number of finished Cloudlets is:650
+21277.01: MET_Broker: Cloudlet #650 return received
+21277.01: MET_Broker: The number of finished Cloudlets is:651
+21283.01: MET_Broker: Cloudlet #651 return received
+21283.01: MET_Broker: The number of finished Cloudlets is:652
+21301.809999999998: MET_Broker: Cloudlet #652 return received
+21301.809999999998: MET_Broker: The number of finished Cloudlets is:653
+21319.809999999998: MET_Broker: Cloudlet #653 return received
+21319.809999999998: MET_Broker: The number of finished Cloudlets is:654
+21349.809999999998: MET_Broker: Cloudlet #654 return received
+21349.809999999998: MET_Broker: The number of finished Cloudlets is:655
+21365.809999999998: MET_Broker: Cloudlet #655 return received
+21365.809999999998: MET_Broker: The number of finished Cloudlets is:656
+21394.21: MET_Broker: Cloudlet #656 return received
+21394.21: MET_Broker: The number of finished Cloudlets is:657
+21422.61: MET_Broker: Cloudlet #657 return received
+21422.61: MET_Broker: The number of finished Cloudlets is:658
+21461.41: MET_Broker: Cloudlet #658 return received
+21461.41: MET_Broker: The number of finished Cloudlets is:659
+21492.21: MET_Broker: Cloudlet #659 return received
+21492.21: MET_Broker: The number of finished Cloudlets is:660
+21514.21: MET_Broker: Cloudlet #660 return received
+21514.21: MET_Broker: The number of finished Cloudlets is:661
+21532.21: MET_Broker: Cloudlet #661 return received
+21532.21: MET_Broker: The number of finished Cloudlets is:662
+21569.41: MET_Broker: Cloudlet #662 return received
+21569.41: MET_Broker: The number of finished Cloudlets is:663
+21589.01: MET_Broker: Cloudlet #663 return received
+21589.01: MET_Broker: The number of finished Cloudlets is:664
+21649.01: MET_Broker: Cloudlet #664 return received
+21649.01: MET_Broker: The number of finished Cloudlets is:665
+21694.21: MET_Broker: Cloudlet #665 return received
+21694.21: MET_Broker: The number of finished Cloudlets is:666
+21717.809999999998: MET_Broker: Cloudlet #666 return received
+21717.809999999998: MET_Broker: The number of finished Cloudlets is:667
+21765.409999999996: MET_Broker: Cloudlet #667 return received
+21765.409999999996: MET_Broker: The number of finished Cloudlets is:668
+21791.409999999996: MET_Broker: Cloudlet #668 return received
+21791.409999999996: MET_Broker: The number of finished Cloudlets is:669
+21830.209999999995: MET_Broker: Cloudlet #669 return received
+21830.209999999995: MET_Broker: The number of finished Cloudlets is:670
+21857.009999999995: MET_Broker: Cloudlet #670 return received
+21857.009999999995: MET_Broker: The number of finished Cloudlets is:671
+21992.009999999995: MET_Broker: Cloudlet #671 return received
+21992.009999999995: MET_Broker: The number of finished Cloudlets is:672
+22039.609999999993: MET_Broker: Cloudlet #672 return received
+22039.609999999993: MET_Broker: The number of finished Cloudlets is:673
+22089.609999999993: MET_Broker: Cloudlet #673 return received
+22089.609999999993: MET_Broker: The number of finished Cloudlets is:674
+22105.609999999993: MET_Broker: Cloudlet #674 return received
+22105.609999999993: MET_Broker: The number of finished Cloudlets is:675
+22148.409999999993: MET_Broker: Cloudlet #675 return received
+22148.409999999993: MET_Broker: The number of finished Cloudlets is:676
+22178.409999999993: MET_Broker: Cloudlet #676 return received
+22178.409999999993: MET_Broker: The number of finished Cloudlets is:677
+22194.409999999993: MET_Broker: Cloudlet #677 return received
+22194.409999999993: MET_Broker: The number of finished Cloudlets is:678
+22235.609999999993: MET_Broker: Cloudlet #678 return received
+22235.609999999993: MET_Broker: The number of finished Cloudlets is:679
+22253.609999999993: MET_Broker: Cloudlet #679 return received
+22253.609999999993: MET_Broker: The number of finished Cloudlets is:680
+22277.209999999992: MET_Broker: Cloudlet #680 return received
+22277.209999999992: MET_Broker: The number of finished Cloudlets is:681
+22320.80999999999: MET_Broker: Cloudlet #681 return received
+22320.80999999999: MET_Broker: The number of finished Cloudlets is:682
+22346.00999999999: MET_Broker: Cloudlet #682 return received
+22346.00999999999: MET_Broker: The number of finished Cloudlets is:683
+22395.209999999992: MET_Broker: Cloudlet #683 return received
+22395.209999999992: MET_Broker: The number of finished Cloudlets is:684
+22435.609999999993: MET_Broker: Cloudlet #684 return received
+22435.609999999993: MET_Broker: The number of finished Cloudlets is:685
+22469.609999999993: MET_Broker: Cloudlet #685 return received
+22469.609999999993: MET_Broker: The number of finished Cloudlets is:686
+22516.409999999993: MET_Broker: Cloudlet #686 return received
+22516.409999999993: MET_Broker: The number of finished Cloudlets is:687
+22536.809999999994: MET_Broker: Cloudlet #687 return received
+22536.809999999994: MET_Broker: The number of finished Cloudlets is:688
+22581.209999999995: MET_Broker: Cloudlet #688 return received
+22581.209999999995: MET_Broker: The number of finished Cloudlets is:689
+22605.609999999997: MET_Broker: Cloudlet #689 return received
+22605.609999999997: MET_Broker: The number of finished Cloudlets is:690
+22637.209999999995: MET_Broker: Cloudlet #690 return received
+22637.209999999995: MET_Broker: The number of finished Cloudlets is:691
+22679.209999999995: MET_Broker: Cloudlet #691 return received
+22679.209999999995: MET_Broker: The number of finished Cloudlets is:692
+22739.209999999995: MET_Broker: Cloudlet #692 return received
+22739.209999999995: MET_Broker: The number of finished Cloudlets is:693
+22773.209999999995: MET_Broker: Cloudlet #693 return received
+22773.209999999995: MET_Broker: The number of finished Cloudlets is:694
+22818.409999999996: MET_Broker: Cloudlet #694 return received
+22818.409999999996: MET_Broker: The number of finished Cloudlets is:695
+22845.209999999995: MET_Broker: Cloudlet #695 return received
+22845.209999999995: MET_Broker: The number of finished Cloudlets is:696
+22874.409999999996: MET_Broker: Cloudlet #696 return received
+22874.409999999996: MET_Broker: The number of finished Cloudlets is:697
+22892.409999999996: MET_Broker: Cloudlet #697 return received
+22892.409999999996: MET_Broker: The number of finished Cloudlets is:698
+22908.409999999996: MET_Broker: Cloudlet #698 return received
+22908.409999999996: MET_Broker: The number of finished Cloudlets is:699
+22952.809999999998: MET_Broker: Cloudlet #699 return received
+22952.809999999998: MET_Broker: The number of finished Cloudlets is:700
+22972.409999999996: MET_Broker: Cloudlet #700 return received
+22972.409999999996: MET_Broker: The number of finished Cloudlets is:701
+23011.209999999995: MET_Broker: Cloudlet #701 return received
+23011.209999999995: MET_Broker: The number of finished Cloudlets is:702
+23052.409999999996: MET_Broker: Cloudlet #702 return received
+23052.409999999996: MET_Broker: The number of finished Cloudlets is:703
+23262.409999999996: MET_Broker: Cloudlet #703 return received
+23262.409999999996: MET_Broker: The number of finished Cloudlets is:704
+23306.009999999995: MET_Broker: Cloudlet #704 return received
+23306.009999999995: MET_Broker: The number of finished Cloudlets is:705
+23353.609999999993: MET_Broker: Cloudlet #705 return received
+23353.609999999993: MET_Broker: The number of finished Cloudlets is:706
+23386.809999999994: MET_Broker: Cloudlet #706 return received
+23386.809999999994: MET_Broker: The number of finished Cloudlets is:707
+23411.209999999995: MET_Broker: Cloudlet #707 return received
+23411.209999999995: MET_Broker: The number of finished Cloudlets is:708
+23450.809999999994: MET_Broker: Cloudlet #708 return received
+23450.809999999994: MET_Broker: The number of finished Cloudlets is:709
+23466.809999999994: MET_Broker: Cloudlet #709 return received
+23466.809999999994: MET_Broker: The number of finished Cloudlets is:710
+23477.809999999994: MET_Broker: Cloudlet #710 return received
+23477.809999999994: MET_Broker: The number of finished Cloudlets is:711
+23612.809999999994: MET_Broker: Cloudlet #711 return received
+23612.809999999994: MET_Broker: The number of finished Cloudlets is:712
+23646.009999999995: MET_Broker: Cloudlet #712 return received
+23646.009999999995: MET_Broker: The number of finished Cloudlets is:713
+23679.209999999995: MET_Broker: Cloudlet #713 return received
+23679.209999999995: MET_Broker: The number of finished Cloudlets is:714
+23702.809999999994: MET_Broker: Cloudlet #714 return received
+23702.809999999994: MET_Broker: The number of finished Cloudlets is:715
+23752.809999999994: MET_Broker: Cloudlet #715 return received
+23752.809999999994: MET_Broker: The number of finished Cloudlets is:716
+23797.209999999995: MET_Broker: Cloudlet #716 return received
+23797.209999999995: MET_Broker: The number of finished Cloudlets is:717
+23816.009999999995: MET_Broker: Cloudlet #717 return received
+23816.009999999995: MET_Broker: The number of finished Cloudlets is:718
+23865.209999999995: MET_Broker: Cloudlet #718 return received
+23865.209999999995: MET_Broker: The number of finished Cloudlets is:719
+23884.809999999994: MET_Broker: Cloudlet #719 return received
+23884.809999999994: MET_Broker: The number of finished Cloudlets is:720
+23928.409999999993: MET_Broker: Cloudlet #720 return received
+23928.409999999993: MET_Broker: The number of finished Cloudlets is:721
+23960.809999999994: MET_Broker: Cloudlet #721 return received
+23960.809999999994: MET_Broker: The number of finished Cloudlets is:722
+23993.209999999995: MET_Broker: Cloudlet #722 return received
+23993.209999999995: MET_Broker: The number of finished Cloudlets is:723
+24024.009999999995: MET_Broker: Cloudlet #723 return received
+24024.009999999995: MET_Broker: The number of finished Cloudlets is:724
+24074.009999999995: MET_Broker: Cloudlet #724 return received
+24074.009999999995: MET_Broker: The number of finished Cloudlets is:725
+24098.409999999996: MET_Broker: Cloudlet #725 return received
+24098.409999999996: MET_Broker: The number of finished Cloudlets is:726
+24116.409999999996: MET_Broker: Cloudlet #726 return received
+24116.409999999996: MET_Broker: The number of finished Cloudlets is:727
+24144.809999999998: MET_Broker: Cloudlet #727 return received
+24144.809999999998: MET_Broker: The number of finished Cloudlets is:728
+24168.409999999996: MET_Broker: Cloudlet #728 return received
+24168.409999999996: MET_Broker: The number of finished Cloudlets is:729
+24189.609999999997: MET_Broker: Cloudlet #729 return received
+24189.609999999997: MET_Broker: The number of finished Cloudlets is:730
+24200.609999999997: MET_Broker: Cloudlet #730 return received
+24200.609999999997: MET_Broker: The number of finished Cloudlets is:731
+24410.609999999997: MET_Broker: Cloudlet #731 return received
+24410.609999999997: MET_Broker: The number of finished Cloudlets is:732
+24464.609999999997: MET_Broker: Cloudlet #732 return received
+24464.609999999997: MET_Broker: The number of finished Cloudlets is:733
+24480.609999999997: MET_Broker: Cloudlet #733 return received
+24480.609999999997: MET_Broker: The number of finished Cloudlets is:734
+24540.609999999997: MET_Broker: Cloudlet #734 return received
+24540.609999999997: MET_Broker: The number of finished Cloudlets is:735
+24750.609999999997: MET_Broker: Cloudlet #735 return received
+24750.609999999997: MET_Broker: The number of finished Cloudlets is:736
+24772.609999999997: MET_Broker: Cloudlet #736 return received
+24772.609999999997: MET_Broker: The number of finished Cloudlets is:737
+24820.209999999995: MET_Broker: Cloudlet #737 return received
+24820.209999999995: MET_Broker: The number of finished Cloudlets is:738
+24855.009999999995: MET_Broker: Cloudlet #738 return received
+24855.009999999995: MET_Broker: The number of finished Cloudlets is:739
+24898.609999999993: MET_Broker: Cloudlet #739 return received
+24898.609999999993: MET_Broker: The number of finished Cloudlets is:740
+24917.409999999993: MET_Broker: Cloudlet #740 return received
+24917.409999999993: MET_Broker: The number of finished Cloudlets is:741
+24945.809999999994: MET_Broker: Cloudlet #741 return received
+24945.809999999994: MET_Broker: The number of finished Cloudlets is:742
+24969.409999999993: MET_Broker: Cloudlet #742 return received
+24969.409999999993: MET_Broker: The number of finished Cloudlets is:743
+25021.00999999999: MET_Broker: Cloudlet #743 return received
+25021.00999999999: MET_Broker: The number of finished Cloudlets is:744
+25060.60999999999: MET_Broker: Cloudlet #744 return received
+25060.60999999999: MET_Broker: The number of finished Cloudlets is:745
+25101.80999999999: MET_Broker: Cloudlet #745 return received
+25101.80999999999: MET_Broker: The number of finished Cloudlets is:746
+25125.40999999999: MET_Broker: Cloudlet #746 return received
+25125.40999999999: MET_Broker: The number of finished Cloudlets is:747
+25145.80999999999: MET_Broker: Cloudlet #747 return received
+25145.80999999999: MET_Broker: The number of finished Cloudlets is:748
+25163.80999999999: MET_Broker: Cloudlet #748 return received
+25163.80999999999: MET_Broker: The number of finished Cloudlets is:749
+25205.80999999999: MET_Broker: Cloudlet #749 return received
+25205.80999999999: MET_Broker: The number of finished Cloudlets is:750
+25265.80999999999: MET_Broker: Cloudlet #750 return received
+25265.80999999999: MET_Broker: The number of finished Cloudlets is:751
+25317.40999999999: MET_Broker: Cloudlet #751 return received
+25317.40999999999: MET_Broker: The number of finished Cloudlets is:752
+25328.40999999999: MET_Broker: Cloudlet #752 return received
+25328.40999999999: MET_Broker: The number of finished Cloudlets is:753
+25355.20999999999: MET_Broker: Cloudlet #753 return received
+25355.20999999999: MET_Broker: The number of finished Cloudlets is:754
+25382.009999999987: MET_Broker: Cloudlet #754 return received
+25382.009999999987: MET_Broker: The number of finished Cloudlets is:755
+25400.009999999987: MET_Broker: Cloudlet #755 return received
+25400.009999999987: MET_Broker: The number of finished Cloudlets is:756
+25435.609999999986: MET_Broker: Cloudlet #756 return received
+25435.609999999986: MET_Broker: The number of finished Cloudlets is:757
+25461.609999999986: MET_Broker: Cloudlet #757 return received
+25461.609999999986: MET_Broker: The number of finished Cloudlets is:758
+25506.009999999987: MET_Broker: Cloudlet #758 return received
+25506.009999999987: MET_Broker: The number of finished Cloudlets is:759
+25527.20999999999: MET_Broker: Cloudlet #759 return received
+25527.20999999999: MET_Broker: The number of finished Cloudlets is:760
+25577.20999999999: MET_Broker: Cloudlet #760 return received
+25577.20999999999: MET_Broker: The number of finished Cloudlets is:761
+25593.20999999999: MET_Broker: Cloudlet #761 return received
+25593.20999999999: MET_Broker: The number of finished Cloudlets is:762
+25639.20999999999: MET_Broker: Cloudlet #762 return received
+25639.20999999999: MET_Broker: The number of finished Cloudlets is:763
+25674.009999999987: MET_Broker: Cloudlet #763 return received
+25674.009999999987: MET_Broker: The number of finished Cloudlets is:764
+25722.40999999999: MET_Broker: Cloudlet #764 return received
+25722.40999999999: MET_Broker: The number of finished Cloudlets is:765
+25758.009999999987: MET_Broker: Cloudlet #765 return received
+25758.009999999987: MET_Broker: The number of finished Cloudlets is:766
+25803.20999999999: MET_Broker: Cloudlet #766 return received
+25803.20999999999: MET_Broker: The number of finished Cloudlets is:767
+25849.20999999999: MET_Broker: Cloudlet #767 return received
+25849.20999999999: MET_Broker: The number of finished Cloudlets is:768
+25870.40999999999: MET_Broker: Cloudlet #768 return received
+25870.40999999999: MET_Broker: The number of finished Cloudlets is:769
+26155.40999999999: MET_Broker: Cloudlet #769 return received
+26155.40999999999: MET_Broker: The number of finished Cloudlets is:770
+26196.60999999999: MET_Broker: Cloudlet #770 return received
+26196.60999999999: MET_Broker: The number of finished Cloudlets is:771
+26243.40999999999: MET_Broker: Cloudlet #771 return received
+26243.40999999999: MET_Broker: The number of finished Cloudlets is:772
+26291.80999999999: MET_Broker: Cloudlet #772 return received
+26291.80999999999: MET_Broker: The number of finished Cloudlets is:773
+26309.80999999999: MET_Broker: Cloudlet #773 return received
+26309.80999999999: MET_Broker: The number of finished Cloudlets is:774
+26356.60999999999: MET_Broker: Cloudlet #774 return received
+26356.60999999999: MET_Broker: The number of finished Cloudlets is:775
+26381.80999999999: MET_Broker: Cloudlet #775 return received
+26381.80999999999: MET_Broker: The number of finished Cloudlets is:776
+26427.00999999999: MET_Broker: Cloudlet #776 return received
+26427.00999999999: MET_Broker: The number of finished Cloudlets is:777
+26443.00999999999: MET_Broker: Cloudlet #777 return received
+26443.00999999999: MET_Broker: The number of finished Cloudlets is:778
+26462.60999999999: MET_Broker: Cloudlet #778 return received
+26462.60999999999: MET_Broker: The number of finished Cloudlets is:779
+26483.00999999999: MET_Broker: Cloudlet #779 return received
+26483.00999999999: MET_Broker: The number of finished Cloudlets is:780
+26532.209999999992: MET_Broker: Cloudlet #780 return received
+26532.209999999992: MET_Broker: The number of finished Cloudlets is:781
+26569.409999999993: MET_Broker: Cloudlet #781 return received
+26569.409999999993: MET_Broker: The number of finished Cloudlets is:782
+26593.809999999994: MET_Broker: Cloudlet #782 return received
+26593.809999999994: MET_Broker: The number of finished Cloudlets is:783
+26645.409999999993: MET_Broker: Cloudlet #783 return received
+26645.409999999993: MET_Broker: The number of finished Cloudlets is:784
+26681.00999999999: MET_Broker: Cloudlet #784 return received
+26681.00999999999: MET_Broker: The number of finished Cloudlets is:785
+26723.80999999999: MET_Broker: Cloudlet #785 return received
+26723.80999999999: MET_Broker: The number of finished Cloudlets is:786
+26749.80999999999: MET_Broker: Cloudlet #786 return received
+26749.80999999999: MET_Broker: The number of finished Cloudlets is:787
+26785.40999999999: MET_Broker: Cloudlet #787 return received
+26785.40999999999: MET_Broker: The number of finished Cloudlets is:788
+26821.80999999999: MET_Broker: Cloudlet #788 return received
+26821.80999999999: MET_Broker: The number of finished Cloudlets is:789
+26865.40999999999: MET_Broker: Cloudlet #789 return received
+26865.40999999999: MET_Broker: The number of finished Cloudlets is:790
+27150.40999999999: MET_Broker: Cloudlet #790 return received
+27150.40999999999: MET_Broker: The number of finished Cloudlets is:791
+27169.20999999999: MET_Broker: Cloudlet #791 return received
+27169.20999999999: MET_Broker: The number of finished Cloudlets is:792
+27196.009999999987: MET_Broker: Cloudlet #792 return received
+27196.009999999987: MET_Broker: The number of finished Cloudlets is:793
+27222.009999999987: MET_Broker: Cloudlet #793 return received
+27222.009999999987: MET_Broker: The number of finished Cloudlets is:794
+27262.40999999999: MET_Broker: Cloudlet #794 return received
+27262.40999999999: MET_Broker: The number of finished Cloudlets is:795
+27306.80999999999: MET_Broker: Cloudlet #795 return received
+27306.80999999999: MET_Broker: The number of finished Cloudlets is:796
+27348.00999999999: MET_Broker: Cloudlet #796 return received
+27348.00999999999: MET_Broker: The number of finished Cloudlets is:797
+27398.80999999999: MET_Broker: Cloudlet #797 return received
+27398.80999999999: MET_Broker: The number of finished Cloudlets is:798
+27447.209999999992: MET_Broker: Cloudlet #798 return received
+27447.209999999992: MET_Broker: The number of finished Cloudlets is:799
+27485.209999999992: MET_Broker: Cloudlet #799 return received
+27485.209999999992: MET_Broker: The number of finished Cloudlets is:800
+27485.209999999992: MET_Broker: All Cloudlets executed. Finishing...
+27485.209999999992: MET_Broker: Destroying Vm #0
+27485.209999999992: MET_Broker: Destroying Vm #1
+27485.209999999992: MET_Broker: Destroying Vm #2
+27485.209999999992: MET_Broker: Destroying Vm #3
+27485.209999999992: MET_Broker: Destroying Vm #4
+27485.209999999992: MET_Broker: Destroying Vm #5
+27485.209999999992: MET_Broker: Destroying Vm #6
+27485.209999999992: MET_Broker: Destroying Vm #7
+27485.209999999992: MET_Broker: Destroying Vm #8
+27485.209999999992: MET_Broker: Destroying Vm #9
+27485.209999999992: MET_Broker: Destroying Vm #10
+27485.209999999992: MET_Broker: Destroying Vm #11
+27485.209999999992: MET_Broker: Destroying Vm #12
+27485.209999999992: MET_Broker: Destroying Vm #13
+27485.209999999992: MET_Broker: Destroying Vm #14
+27485.209999999992: MET_Broker: Destroying Vm #15
+27485.209999999992: MET_Broker: Destroying Vm #16
+27485.209999999992: MET_Broker: Destroying Vm #17
+27485.209999999992: MET_Broker: Destroying Vm #18
+27485.209999999992: MET_Broker: Destroying Vm #19
+27485.209999999992: MET_Broker is shutting down...
+27485.209999999992: Simulation: No more future events
+27485.209999999992: CloudInformationService is shutting down...
+27485.209999999992: CloudInformationService: Notify all CloudSim entities for shutting down.
+27485.209999999992: Datacenter_0 is shutting down...
+27485.209999999992: MET_Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== CLOUDLET RESULTS ==========
+(only the first 20 successful Cloudlets are shown; METRICS below are still computed from all 800 results)
+Cloudlet ID	Status	VM ID	Exec Time	Start Time	Finish Time
+0	SUCCESS	15	25.2	0.01	25.21
+2	SUCCESS	15	30.8	0.01	30.81
+1	SUCCESS	15	34.8	0.01	34.81
+4	SUCCESS	15	32.4	25.21	57.61
+6	SUCCESS	15	33.2	34.81	68.01
+5	SUCCESS	15	54	30.81	84.81
+8	SUCCESS	15	23.6	68.01	91.61
+7	SUCCESS	15	45.2	57.61	102.81
+9	SUCCESS	15	26	84.81	110.81
+12	SUCCESS	15	6	110.81	116.81
+10	SUCCESS	15	26.8	91.61	118.41
+11	SUCCESS	15	19.6	102.81	122.41
+3	SUCCESS	15	135	0.01	135.01
+13	SUCCESS	15	24.4	116.81	141.21
+15	SUCCESS	15	30	122.41	152.41
+14	SUCCESS	15	39.6	118.41	158.01
+16	SUCCESS	15	37.2	135.01	172.21
+18	SUCCESS	15	30.8	152.41	183.21
+17	SUCCESS	15	46.8	141.21	188.01
+19	SUCCESS	15	42.8	158.01	200.81
+
+========== METRICS ==========
+Completed Cloudlets      : 800
+Makespan                 : 27485.21 s
+Degree of Imbalance      : 20
+Average Waiting Time     : 11212.0375 s
+Throughput               : 0.0291 cloudlets/s
+Average VM Utilization*  : 7.2008 %
+
+* Utilization is calculated from aggregate Cloudlet CPU time
+  over the available VM time in this simplified model.
+Week4_MET_TaskScheduling finished!
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.938 s
+[INFO] Finished at: 2026-10-05T12:09:50+07:00
+[INFO] ------------------------------------------------------------------------

@@ -51,7 +51,7 @@ public class Week4_MET_TaskScheduling {
     private static final int NUM_USERS = 1;
     private static final int NUM_HOSTS = 10;
     private static final int NUM_VMS = 20;
-    private static final int MAX_CLOUDLETS = 1000;
+    private static final int MAX_CLOUDLETS = 10000;
 
     private static final String DEFAULT_DATASET =
             "dataset/GoCJ_Dataset_1000.txt";
@@ -421,12 +421,22 @@ public class Week4_MET_TaskScheduling {
     private static void printCloudletResults(List<Cloudlet> list) {
         Log.println();
         Log.println("========== CLOUDLET RESULTS ==========");
+        Log.println(
+            "(only the first 20 successful Cloudlets are shown; "
+            + "METRICS below are still computed from all "
+            + list.size() + " results)"
+        );
 
         Log.println(
             "Cloudlet ID\tStatus\tVM ID\tExec Time\tStart Time\tFinish Time"
         );
 
+        int shown = 0;
         for (Cloudlet cloudlet : list) {
+            if (shown >= 20) {
+                break;
+            }
+
             if (cloudlet.getStatus() == Cloudlet.CloudletStatus.SUCCESS) {
                 Log.println(
                     cloudlet.getCloudletId()
@@ -439,6 +449,7 @@ public class Week4_MET_TaskScheduling {
                     + "\t"
                     + DF.format(cloudlet.getExecFinishTime())
                 );
+                shown++;
             }
         }
     }
