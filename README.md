@@ -218,7 +218,33 @@ Assignment: VM 15 menerima 1000 cloudlet, VM lainnya 0. Hasil ini identik dengan
 - **Synthetic hampir linier.** Proporsi kategori tetap, sehingga beban rata-rata per task hampir konstan. Throughput stabil sekitar 0,054 cloudlet/s dan utilisasi sekitar 20%.
 - **Utilisasi synthetic tertahan sekitar 20%.** Utilisasi dihitung per VM (total CPU time / (makespan x 20 VM)), dan semua beban hanya ada di VM 15 yang memiliki 4 core, sehingga batasnya sekitar 4/20. Ini adalah perhitungan sederhana sesuai implementasi program, bukan utilisasi cloud nyata.
 
-## 11. Definisi Metrics
+## 11. Pertanyaan yang Sering Ditanyakan (Q&A)
+
+### Kenapa chart GoCJ di Sheets terlihat "acak", peak-nya tidak konsisten (kadang di awal, kadang di akhir)?
+
+Ini bukan keacakan statistik. Repeatability sudah dibuktikan (lihat Bagian 10, Validasi): 3 run pada dataset yang sama selalu menghasilkan angka identik, karena MET dan simulasi CloudSim di project ini sepenuhnya deterministik.
+
+Yang membuatnya terlihat tidak berpola adalah: **GoCJ_100 sampai GoCJ_1000 bukan satu seri data yang tumbuh teratur**, melainkan 10 file resmi terpisah dari Mendeley yang masing-masing merupakan sampel independen dengan komposisi job sendiri-sendiri. Sumbu-X "jumlah task" menata 10 sampel berbeda itu berurutan, padahal tidak ada hubungan pertumbuhan di antaranya.
+
+Penyebab teknisnya ada pada level scheduler. Karena semua job selalu masuk ke satu VM (VM15, 4 PE), performa sangat bergantung pada seberapa sering **task yang kebetulan punya panjang (MI) sama persis** muncul di tiap file. `CloudletSchedulerSpaceShared` pada CloudSim 7.0.1 punya method `updateWaitingCloudlets()` yang hanya membangunkan **satu** cloudlet dari antrian setiap kali dipanggil, walau ada beberapa PE kosong bersamaan. Jika dua atau lebih task selesai di detik yang sama, PE yang nganggur tidak langsung terisi lagi sampai pemanggilan berikutnya.
+
+Bukti angka (rata-rata core aktif dari 4 PE VM15):
+- GoCJ_400: hanya 1.15 dari 4 PE aktif, makespan tinggi (18035.41 s)
+- GoCJ_500: 3.96 dari 4 PE aktif, makespan jauh lebih rendah (6573.61 s), padahal total beban GoCJ_500 lebih besar dari GoCJ_400
+
+Karena kombinasi "job kembar" berbeda secara kebetulan di tiap file (bukan tren yang bisa diprediksi dari N), peak di grafik jadi tidak terpola secara monoton.
+
+### Kenapa ada beberapa grafik yang terlihat datar/konstan?
+
+Ada dua penyebab berbeda tergantung metriknya.
+
+**Degree of Imbalance (GoCJ dan Synthetic, keduanya datar di 20).** Ini datar karena alasan matematis, bukan kebetulan. Karena MET selalu menumpuk semua task ke satu VM dari 20 VM, rumus `(Load_max - Load_min) / Load_rata-rata` otomatis selalu menghasilkan 20, berapa pun jumlah atau jenis task-nya.
+
+**Throughput dan Utilization pada Synthetic (stabil di kisaran kecil).** Dataset synthetic dibuat supaya hampir semua nilai panjang task-nya unik (Synthetic_1000 punya 997 nilai unik dari 1000 task, Synthetic_10000 punya 9792 dari 10000, lihat Bagian 9). Karena hampir tidak pernah ada dua task yang selesai persis bersamaan, keempat PE VM15 selalu terisi penuh terus-menerus (core aktif 3.98 sampai 4.0 dari 4 PE di semua ukuran synthetic). Akibatnya utilization tertahan stabil di sekitar 20% (4 dari 20 VM aktif) dan throughput stabil di sekitar 0.054 cloudlet/s. "Idle PE" yang menyebabkan GoCJ berfluktuasi jarang terjadi di synthetic karena task-nya jarang bertabrakan panjang.
+
+**Ringkasan satu kalimat:** GoCJ_100 sampai GoCJ_1000 tidak bisa dibaca sebagai satu kurva pertumbuhan beban karena tiap file adalah sampel independen, dan fluktuasinya berasal dari seberapa sering task bertabrakan panjang (yang memicu PE menganggur di scheduler CloudSim), bukan dari jumlah task itu sendiri. Degree of Imbalance datar karena konsekuensi rumus (bukan hasil kebetulan), sedangkan throughput/utilization synthetic stabil karena task synthetic hampir selalu unik sehingga PE VM15 tidak pernah starvation seperti di GoCJ.
+
+## 12. Definisi Metrics
 
 | Metrik | Definisi pada program |
 |---|---|
@@ -228,7 +254,7 @@ Assignment: VM 15 menerima 1000 cloudlet, VM lainnya 0. Hasil ini identik dengan
 | Throughput | jumlah hasil / makespan |
 | Average VM Utilization | (total actual CPU time / (makespan x jumlah VM)) x 100% |
 
-## 12. Troubleshooting
+## 13. Troubleshooting
 
 - **`mvn` tidak dikenali:** periksa instalasi Maven dan `PATH`, lalu jalankan `mvn -version`.
 - **Versi Java salah:** pastikan `java -version` dan `mvn -version` sama-sama memakai JDK 21.
@@ -237,7 +263,7 @@ Assignment: VM 15 menerima 1000 cloudlet, VM lainnya 0. Hasil ini identik dengan
 - **`Unknown lifecycle phase ".mainClass=..."` saat otomatisasi:** lihat catatan `cmd /c` pada bagian 8.
 - **`KeyError: 'Family'` pada `average-results.py`:** CSV berawalan karakter BOM. Gunakan versi skrip pada repo yang membuka file dengan `encoding="utf-8-sig"`.
 
-## 13. Yang Di-commit dan yang Tidak
+## 14. Yang Di-commit dan yang Tidak
 
 Di-commit: `README.md`, `run-experiments.ps1`, `average-results.py`, `generate-synthetic.py`, `dataset/`, `results/`, dan source Java yang diubah.
 
@@ -256,11 +282,11 @@ Jangan di-commit (sudah ada di `.gitignore`):
 Thumbs.db
 ```
 
-## 14. Catatan Reproducibility
+## 15. Catatan Reproducibility
 
 Jangan mengubah hal berikut tanpa mencatatnya sebagai eksperimen baru: dataset, jumlah cloudlet, jumlah host, jumlah VM, kapasitas VM, rumus MET, dan aturan tie-breaking.
 
-## 15. Referensi
+## 16. Referensi
 
 - CloudSim. Cloudslab. https://github.com/Cloudslab/cloudsim
 - CloudSim v7.0.1. https://github.com/Cloudslab/cloudsim/releases/tag/7.0.1
